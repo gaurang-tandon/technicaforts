@@ -21,50 +21,50 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item mx-lg-3 rounded-3">
-                            <a class="nav-link" href="index.php">Home</a>
+                            <a class="nav-link navbar-iceland-regular" href="index.php">Home</a>
                         </li>
                         <li class="nav-item mx-lg-3 rounded-3 dropdown">
-                            <a class="nav-link dropdown-toggle" href="./services.php" role="button" aria-expanded="false">
+                            <a class="nav-link navbar-iceland-regular" href="./services.php" role="button" aria-expanded="false">
                                 Services
                             </a>
                             <ul class="dropdown-menu rounded-4 mx-auto py-3 px-2">
                                 <li>
-                                    <a class="dropdown-item rounded-5 my-1" href="./services/medical_coding.php">Medical
+                                    <a class="dropdown-item rounded-5 my-1 navbar-iceland-regular" href="./services/medical_coding.php">Medical
                                         Coding</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item rounded-5 my-1"
+                                    <a class="dropdown-item rounded-5 my-1 navbar-iceland-regular"
                                         href="./services/medical_record_review.php">Medical Record Review</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item rounded-5 my-1"
+                                    <a class="dropdown-item rounded-5 my-1 navbar-iceland-regular"
                                         href="./services/medical_scribing.php">Medical Scribing</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item rounded-5 my-1"
+                                    <a class="dropdown-item rounded-5 my-1 navbar-iceland-regular"
                                         href="./services/medical_transcription.php">Medical Transcription</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item rounded-5 my-1"
+                                    <a class="dropdown-item rounded-5 my-1 navbar-iceland-regular"
                                         href="./services/pharmacovigilance.php">Pharmacovigilance</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item rounded-5 my-1"
+                                    <a class="dropdown-item rounded-5 my-1 navbar-iceland-regular"
                                         href="./services/revenue_cycle_management.php">Revenue Cycle Management</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item mx-lg-3 rounded-3">
-                            <a class="nav-link" href="./case_study.php">Case Study</a>
+                            <a class="nav-link navbar-iceland-regular" href="./case_study.php">Case Study</a>
                         </li>
                         <li class="nav-item mx-lg-3 rounded-3">
-                            <a class="nav-link" href="./about_us.php">About Us</a>
+                            <a class="nav-link navbar-iceland-regular" href="./about_us.php">About Us</a>
                         </li>
                         <li class="nav-item mx-lg-3 rounded-3">
-                            <a class="nav-link" href="./resources.php">Resources</a>
+                            <a class="nav-link navbar-iceland-regular" href="./resources.php">Resources</a>
                         </li>
                         <li class="nav-item mx-lg-3 rounded-3">
-                            <a class="nav-link" href="./contact_us.php">Contact Us</a>
+                            <a class="nav-link navbar-iceland-regular" href="./contact_us.php">Contact Us</a>
                         </li>
                     </ul>
                 </div>
