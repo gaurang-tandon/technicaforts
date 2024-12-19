@@ -167,7 +167,10 @@ img{
 }
 
 .cards_index .iceland-regular {
-    font-size: 2.5rem;
+    font-size: 29px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 7px 0px 8px 0px;
 }
 
 .services-png {
