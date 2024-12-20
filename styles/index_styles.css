@@ -1,144 +1,204 @@
 img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
-.box-shadow-1rem{
-    box-shadow: 0 0 1rem rgb(80, 80, 80);
+.box-shadow-1rem {
+  box-shadow: 0 0 1rem rgb(80, 80, 80);
 }
-.box-shadow-2rem{
-    box-shadow: 0 0 2rem rgb(80, 80, 80);
+.box-shadow-2rem {
+  box-shadow: 0 0 2rem rgb(80, 80, 80);
 }
-.box-shadow-3rem{
-    box-shadow: 0 0 3rem rgb(80, 80, 80);
+.box-shadow-3rem {
+  box-shadow: 0 0 3rem rgb(80, 80, 80);
 }
-.box-shadow-4rem{
-    box-shadow: 0 0 4rem rgb(80, 80, 80);
+.box-shadow-4rem {
+  box-shadow: 0 0 4rem rgb(80, 80, 80);
 }
-.box-shadow-5rem{
-    box-shadow: 0 0 5rem rgb(80, 80, 80);
+.box-shadow-5rem {
+  box-shadow: 0 0 5rem rgb(80, 80, 80);
 }
 .carousel-item img {
-    padding: 2px;
+  padding: 2px;
 }
 
 .carousel-caption .no-image-carousel {
-    color: black;
+  color: black;
 }
 /* .carousel-caption {
     color: black;
 } */
 
 .roboto-regular {
-    font-family: "Roboto", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 3rem;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
 }
 
 .left-car-image {
-    height: 80vh;
+  height: 80vh;
 }
 
 .image-aspect {
-    height: 40vh;
+  height: 40vh;
 }
 
 .cards-index {
-    background: linear-gradient(0deg, rgba(43, 38, 113, 1) 0%, rgba(89, 146, 192, 1) 100%);
-    height: 15rem;
-    color: #ffffff;
-    padding: 1rem;
+  background: linear-gradient(
+    0deg,
+    rgba(43, 38, 113, 1) 0%,
+    rgba(89, 146, 192, 1) 100%
+  );
+  height: 15rem;
+  color: #ffffff;
+  padding: 1rem;
 }
 
 .services-card-index:hover {
-    transform: scale(1.1);
-    transition: transform .5s;
+  transform: scale(1.1);
+  transition: transform 0.5s;
 }
 
 .cards-index:hover {
-    background: radial-gradient(at bottom left, #00BAEF 0%, #00BAEF 100%);
+  background: radial-gradient(at bottom left, #00baef 0%, #00baef 100%);
 }
 
 .cards-index .roboto-regular {
-    font-family: "Roboto", serif;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin: 7px 0px 8px 0px;
+  font-family: "Roboto", serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 7px 0px 8px 0px;
 }
 
 .services-png {
-    height: 3rem;
-    width: auto;
+  height: 3rem;
+  width: auto;
 }
 
 .why-section-img {
-    width: 13 rem;
-    height: auto;
+  width: 13 rem;
+  height: auto;
 }
 
 .roboto-regular-text-2rem {
-    font-family: "Roboto", serif;
-    font-size: 2rem;
+  font-family: "Roboto", serif;
+  font-size: 2rem;
 }
 
 .roboto-regular-text-1rem {
-    font-family: "Roboto", serif;
-    font-size: 1.5rem;
+  font-family: "Roboto", serif;
+  font-size: 1.5rem;
 }
 
 .list-group-item {
-    margin: 0;
-    padding: 0;
-    position: relative;
-    border: none
+  margin: 0;
+  padding: 0;
+  position: relative;
+  border: none;
 }
 
 .list-group {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .list-group-item::after {
-    content: "•";
-    position: absolute;
-    right: -1rem;
+  content: "•";
+  position: absolute;
+  right: -1rem;
 }
 
 .bg-custom-blue {
-    /* background: #000000; */
-    /* background: linear-gradient(0deg, rgb(25, 150, 0) 0%, rgb(124, 230, 129) 100%); */
-    background: linear-gradient(177deg, rgba(48, 38, 113, 1) 0%, rgba(89, 146, 192, 1) 75%);
-    margin-left: 0;
-    margin-right: 0;
+  /* background: #000000; */
+  /* background: linear-gradient(0deg, rgb(25, 150, 0) 0%, rgb(124, 230, 129) 100%); */
+  background: linear-gradient(
+    177deg,
+    rgba(48, 38, 113, 1) 0%,
+    rgba(89, 146, 192, 1) 75%
+  );
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .custom-image img {
-    aspect-ratio: 5/3;
+  aspect-ratio: 5/3;
 }
 
 .card {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
 .card-body {
-    /* background: #000000; */
-    /* background: linear-gradient(0deg, rgb(14, 87, 0) 0%, rgb(65, 155, 69) 100%); */
-    background: linear-gradient(177deg, rgba(48, 38, 113, 1) 0%, rgba(89, 146, 192, 1) 75%);
-    aspect-ratio: 5/3;
+  /* background: #000000; */
+  /* background: linear-gradient(0deg, rgb(14, 87, 0) 0%, rgb(65, 155, 69) 100%); */
+  background: linear-gradient(
+    177deg,
+    rgba(48, 38, 113, 1) 0%,
+    rgba(89, 146, 192, 1) 75%
+  );
+  aspect-ratio: 5/3;
 }
 
 .card img,
 .card .card-body {
-    box-shadow: 0 0 5rem rgb(80, 80, 80);
+  box-shadow: 0 0 5rem rgb(80, 80, 80);
 }
 
 .col-lg-1-8 {
-    max-width: 12.5%;
-    height: auto;
+  max-width: 12.5%;
+  height: auto;
 }
 
 .custom-image:hover {
-    transform: scale(1.1);
-    transition: transform .5s;
+  transform: scale(1.1);
+  transition: transform 0.5s;
 }
+
+#leftCarousel .carousel-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.733));
+    opacity: 0.5; /* Adjust transparency */
+    z-index: 1;
+  }
+
+#topRightCarousel .carousel-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0.733));
+    opacity: 0.7; /* Adjust transparency */
+    z-index: 1;
+  }
+  
+  #bottomRightCarousel .carousel-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.733), #ffffff);
+    opacity: 0.7;
+    z-index: 1;
+  }
+  
+  #leftCarousel .carousel-item img,
+  #topRightCarousel .carousel-item img,
+  #bottomRightCarousel .carousel-item img {
+    position: relative;
+    z-index: 0;
+  }
+
+  .item-z-index{
+    z-index: 1000;
+  }
+  
