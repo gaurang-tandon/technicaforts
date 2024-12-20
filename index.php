@@ -13,15 +13,13 @@
 
   <!-- Font Awesome CDN for Icons and Fonts -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Iceland&display=swap" rel="stylesheet" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <!-- Bootstrap 5.3 JS CDN -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
   </script>
 
-  <link rel="stylesheet" href="./styles/navbar.css" />
   <link rel="stylesheet" href="./styles/index_styles.css" />
 </head>
 
@@ -59,22 +57,30 @@
         <div class="row me-0">
           <!-- Top Right Carousel -->
           <div class="col-12 pe-0">
-            <div id="topRightCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
-              <div class="carousel-inner">
+            <div id="topRightCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+              <div class="carousel-inner text-center">
                 <div class="carousel-item active">
-                  <img class="image-aspect d-block w-100" src="./images/index/top_right_carousel_2.jpg"
-                    alt="First Slide" />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>First Slide</h5>
-                    <p>Top-right carousel content.</p>
+                  <div class="d-block">
+                    <div class="image-aspect d-none d-md-block">
+                      <h5>First Slide</h5>
+                      <p>Top-right carousel content.</p>
+                    </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img class="image-aspect d-block w-100" src="./images/index/top_right_carousel_1.jpg"
-                    alt="Second Slide" />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Second Slide</h5>
-                    <p>Top-right carousel content.</p>
+                  <div class="d-block">
+                    <div class="image-aspect d-none d-md-block">
+                      <h5>Second Slide</h5>
+                      <p>Top-right carousel content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="d-block">
+                    <div class="image-aspect d-none d-md-block">
+                      <h5>Third Slide</h5>
+                      <p>Top-right carousel content.</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -83,10 +89,10 @@
 
           <!-- Bottom Right Carousel -->
           <div class="col-12 pe-0">
-            <div id="bottomRightCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+            <div id="bottomRightCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="image-aspect d-block w-100" src="./images/index/bottom_right_carousel_1.jpg"
+                  <img class="image-aspect d-block" src="./images/index/bottom_right_carousel_1.jpg"
                     alt="First Slide" />
                   <div class="carousel-caption d-none d-md-block">
                     <h5>First Slide</h5>
@@ -94,7 +100,15 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img class="image-aspect d-block w-100" src="./images/index/bottom_right_carousel_2.jpg"
+                  <img class="image-aspect d-block" src="./images/index/bottom_right_carousel_3.jpg"
+                    alt="Second Slide" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Second Slide</h5>
+                    <p>Bottom-right carousel content.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="image-aspect d-block" src="./images/index/bottom_right_carousel_2.jpg"
                     alt="Second Slide" />
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Second Slide</h5>
@@ -112,9 +126,9 @@
   <div id="our_services" class="container-fluid text-center my-5">
     <div class="row">
       <div class="col-12 col-lg-6 mx-auto">
-        <h1 class="iceland-regular fw-bold">Our Services</h1>
+        <h1 class="roboto-regular fw-bold">Our Services</h1>
         <span>
-          <p class="fs-4 fw-lighter text iceland-regular-text-1rem">
+          <p class="fs-4 fw-lighter text roboto-regular-text-1rem">
             TechnicaForts is a leading Medical Service Provider that excels in
             Medical Coding, Medical Documentation, and Revenue Cycle
             Management. By seamlessly integrating cutting-edge technologies
@@ -129,9 +143,9 @@
     <div class="container" id="">
       <div class="row g-5 text-start">
         <a class="col-12 col-md-6 col-lg-4 text-decoration-none" href="./services/revenue_cycle_management.php">
-          <div class="rounded-4 overflow-hidden cards-index">
+          <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
             <img class="services-png" src="./images/cycle.png" alt="" class="src" />
-            <h6 class="iceland-regular">Revenue Cycle Management (RCM)</h6>
+            <h6 class="roboto-regular">Revenue Cycle Management (RCM)</h6>
             <p class="mb-0">
               TechnicaForts’s RCM Service optimizes the claims process,
               significantly increases revenue, and greatly reduces medical
@@ -140,9 +154,9 @@
           </div>
         </a>
         <a class="col-12 col-md-6 col-lg-4 text-decoration-none" href="./services/medical_record_review.php">
-          <div class="rounded-4 overflow-hidden cards-index">
+          <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
             <img class="services-png" src="./images/preview.png" alt="" class="src" />
-            <h6 class="iceland-regular">Medical Record Review</h6>
+            <h6 class="roboto-regular">Medical Record Review</h6>
             <p class="mb-0">
               TechnicaForts provides expert Medical Record Review and Summarization
               Services for Insurance Companies, Workers Compensation
@@ -151,9 +165,9 @@
           </div>
         </a>
         <a class="col-12 col-md-6 col-lg-4 text-decoration-none" href="./services/medical_transcription.php">
-          <div class="rounded-4 overflow-hidden cards-index">
+          <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
             <img class="services-png" src="./images/transcription.png" alt="" class="src" />
-            <h6 class="iceland-regular">Medical Transcription</h6>
+            <h6 class="roboto-regular">Medical Transcription</h6>
             <p class="mb-0">
               100% secure Medical Transcription Services with guaranteed
               Turn-Around Times and accuracy, saving significant time and
@@ -162,9 +176,9 @@
           </div>
         </a>
         <a class="col-12 col-md-6 col-lg-4 text-decoration-none" href="./services/medical_scribing.php">
-          <div class="rounded-4 overflow-hidden cards-index">
+          <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
             <img class="services-png" src="./images/writing.png" alt="" class="src" />
-            <h6 class="iceland-regular">Medical Scribing</h6>
+            <h6 class="roboto-regular">Medical Scribing</h6>
             <p class="mb-0">
               TechnicaForts provides state-of-the-art Medical Scribing Services
               that combines advanced AI Technology with expert Medical
@@ -173,9 +187,9 @@
           </div>
         </a>
         <a class="col-12 col-md-6 col-lg-4 text-decoration-none" href="./services/medical_coding.php">
-          <div class="rounded-4 overflow-hidden cards-index">
+          <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
             <img class="services-png" src="./images/coding.png" alt="" class="src" />
-            <h6 class="iceland-regular">Medical Coding</h6>
+            <h6 class="roboto-regular">Medical Coding</h6>
             <p class="mb-0">
               TechnicaForts's Medical Coding Service provides highly accurate
               medical coding, eliminates incorrect and omitted codes, and
@@ -184,9 +198,9 @@
           </div>
         </a>
         <a class="col-12 col-md-6 col-lg-4 text-decoration-none" href="./services/pharmacovigilance.php">
-          <div class="rounded-4 overflow-hidden cards-index">
+          <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
             <img class="services-png" src="./images/injection.png" alt="" class="src" />
-            <h6 class="iceland-regular">Pharmacovigilance</h6>
+            <h6 class="roboto-regular">Pharmacovigilance</h6>
             <p class="mb-0">
               TechnicaForts ensures patient safety and regulatory compliance
               through vigilant pharmacovigilance and literature surveillance.
@@ -200,24 +214,24 @@
   <div id="why_section" class="container-fluid my-5 px-0">
     <div class="m-5 mx-auto text-center container">
       <!-- Why Choose TechnicaForts Section -->
-      <h2 class="iceland-regular fw-bold">Why Choose TechnicaForts?</h2>
+      <h2 class="roboto-regular fw-bold shadow-rem">Why Choose TechnicaForts?</h2>
       <div class="row justify-content-center align-items-center my-5">
-        <div class="col-md-6 text-start iceland-regular-text-2rem">
+        <div class="col-md-6 text-start roboto-regular-text-1rem">
           <p class="fw-lighter">TechnicaForts has been extremely honored to have maintained 100% customer retention over
             our nearly two
             decades providing services to the healthcare industry!</p>
         </div>
         <div class="col-md-4 text-end">
           <img src="./images/index/why_section_1.jpeg" alt="Why Choose TechnicaForts 1"
-            class="why-section-img img-fluid">
+            class="why-section-img img-fluid box-shadow-1rem">
         </div>
       </div>
       <div class="row justify-content-center align-items-center my-5">
         <div class="col-md-4 text-start">
           <img src="./images/index/why_section_2.jpeg" alt="Why Choose TechnicaForts 2"
-            class="why-section-img img-fluid">
+            class="why-section-img img-flui box-shadow-1rem ">
         </div>
-        <div class="col-md-6 text-end iceland-regular-text-2rem">
+        <div class="col-md-6 text-end roboto-regular-text-1rem">
           <ul class="list-group text-end">
             <li class="list-group-item fw-lighter">100% Customer Focused</li>
             <li class="list-group-item fw-lighter">Reliable Service Provider</li>
@@ -230,68 +244,59 @@
       </div>
     </div>
 
-    <div class="container-fluid py-4 bg-custom-blue">
+    <div class="container-fluid py-4 bg-custom-blue box-shadow-2rem">
       <!-- Features Section -->
-      <div class="container my-5">
-        <div class="row g-4">
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card custom-image rounded-5 border-0">
-              <div class="card-body rounded-5 border-0 align-items-center d-flex ">
-                <h6 class="iceland-regular mx-auto text-center">100% Client Satisfaction</h6>
-              </div>
+      <div class="row g-4 p-3">
+        <div class="col-12 col-lg col-md-6 col-lg-1-8">
+          <div class="card custom-image rounded-5 border-0">
+            <img src="./images/index/features/feature_1.jpg" class="box-shadow-5rem card-img-top card-img rounded-5"
+              alt="20 Years Healthcare Experience">
+          </div>
+        </div>
+        <div class="col-12 col-lg col-md-6 col-lg-1-8">
+          <div class="card custom-image rounded-5 border-0">
+            <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex ">
+              <h6 class="roboto-regular-text-1rem mx-auto text-center text-white">100% Client Satisfaction</h6>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card custom-image rounded-5 border-0">
-              <img src="./images/index/features/feature_1.jpg" class="card-img-top card-img rounded-5"
-                alt="20 Years Healthcare Experience">
+        </div>
+        <div class="col-12 col-lg col-md-6 col-lg-1-8">
+          <div class="card custom-image rounded-5 border-0">
+            <img src="./images/index/features/feature_2.jpg" class="box-shadow-5rem card-img-top card-img rounded-5"
+              alt="20 Years Healthcare Experience">
+          </div>
+        </div>
+        <div class="col-12 col-lg col-md-6 col-lg-1-8">
+          <div class="card custom-image rounded-5 border-0">
+            <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex">
+              <h6 class="roboto-regular-text-1rem mx-auto text-center text-white">20 Years Healthcare Experience</h6>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card custom-image rounded-5 border-0">
-              <div class="card-body rounded-5 border-0 align-items-center d-flex">
-                <h6 class="iceland-regular mx-auto text-center">Gaurenteed Accuracy</h6>
-              </div>
+        </div>
+        <div class="col-12 col-lg col-md-6 col-lg-1-8">
+          <div class="card custom-image rounded-5 border-0">
+            <img src="./images/index/features/feature_4.webp" class="box-shadow-5rem card-img-top card-img rounded-5"
+              alt="20 Years Healthcare Experience">
+          </div>
+        </div>
+        <div class="col-12 col-lg col-md-6 col-lg-1-8">
+          <div class="card custom-image rounded-5 border-0">
+            <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex">
+              <h6 class="roboto-regular-text-1rem mx-auto text-center text-white">Significant Cost Savings</h6>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card custom-image rounded-5 border-0">
-              <img src="./images/index/features/feature_2.jpg" class="card-img-top card-img rounded-5"
-                alt="20 Years Healthcare Experience">
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card custom-image rounded-5 border-0">
-              <div class="card-body rounded-5 border-0 align-items-center d-flex">
-                <h6 class="iceland-regular mx-auto text-center">20 Years Healthcare Experience</h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card custom-image rounded-5 border-0">
-              <img src="./images/index/features/feature_3.webp" class="card-img-top card-img rounded-5"
-                alt="20 Years Healthcare Experience">
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card custom-image rounded-5 border-0">
-              <div class="card-body rounded-5 border-0 align-items-center d-flex">
-                <h6 class="iceland-regular mx-auto text-center">Significant Cost Savings</h6>
-              </div>
-            </div>
-          </div>
+        </div>
 
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card custom-image rounded-5 border-0">
-              <img src="./images/index/features/feature_4.webp" class="card-img-top card-img rounded-5"
+        <div class="col-12 col-lg col-md-6 col-lg-1-8">
+          <div class="card custom-image rounded-5 border-0">
+            <img src="./images/index/features/feature_3.webp" class="box-shadow-5rem card-img-top card-img rounded-5"
               alt="100% Client Satisfaction">
-            </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card custom-image rounded-5 border-0">
-              <div class="card-body rounded-5 border-0 align-items-center d-flex">
-                <h6 class="iceland-regular mx-auto text-center">Increased Revenue</h6>
-              </div>
+        </div>
+        <div class="col-12 col-lg col-md-6 col-lg-1-8">
+          <div class="card custom-image rounded-5 border-0">
+            <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex">
+              <h6 class="roboto-regular-text-1rem mx-auto text-center text-white">Increased Revenue</h6>
             </div>
           </div>
         </div>
@@ -302,7 +307,7 @@
   <!-- Customer Success Section -->
   <div id="customer_success_section" class="container-fluid my-5">
     <div class="m-5 mx-auto text-center container">
-      <h2 class="iceland-regular fw-bold">Customer Success</h2>
+      <h2 class="roboto-regular fw-bold">Customer Success</h2>
       <div class="row align-items-center">
         <div class="col-md-6">
           <p>TechnicaForts was founded nearly 20 years ago with the commitment to provide critically needed
@@ -310,7 +315,7 @@
           <button class="btn btn-primary">Let’s Talk</button>
         </div>
         <div class="col-md-6 text-center">
-          <img src="https://via.placeholder.com/400x300" alt="Customer Success" class="img-fluid">
+          <!-- <img src="https://via.placeholder.com/400x300" alt="Customer Success" class="img-fluid"> -->
         </div>
       </div>
     </div>
@@ -319,11 +324,11 @@
   <!-- News and Insights Section -->
   <div id="new_insights" class="container-fluid px-0 my-5">
     <div class="m-5 mx-auto text-center container">
-      <h2 class="iceland-regular fw-bold">News and Insights</h2>
+      <h2 class="roboto-regular fw-bold">News and Insights</h2>
       <div class="row">
         <div class="col-md-4">
           <div class="card border-0">
-            <img src="https://via.placeholder.com/150" class="card-img-top card-img" alt="News">
+            <!-- <img src="https://via.placeholder.com/150" class="card-img-top card-img" alt="News"> -->
             <div class="card-body">
               <h5 class="news-title">5 Ways RCM Services Can Improve Your Cash Flow</h5>
               <p>As a medical provider, you strive to offer the...</p>
@@ -333,7 +338,7 @@
         </div>
         <div class="col-md-4">
           <div class="card border-0">
-            <img src="https://via.placeholder.com/150" class="card-img-top card-img" alt="News">
+            <!-- <img src="https://via.placeholder.com/150" class="card-img-top card-img" alt="News"> -->
             <div class="card-body">
               <h5 class="news-title">Behind the Scenes of Healthcare: The Vital Role of Medical Scribes</h5>
               <p>In the ever-evolving landscape of healthcare, there’s a critical...</p>
@@ -343,7 +348,7 @@
         </div>
         <div class="col-md-4">
           <div class="card border-0">
-            <img src="https://via.placeholder.com/150" class="card-img-top card-img" alt="News">
+            <!-- <img src="https://via.placeholder.com/150" class="card-img-top card-img" alt="News"> -->
             <div class="card-body">
               <h5 class="news-title">The Art and Science of Medical Transcription</h5>
               <p>In the fast-paced world of healthcare, where every detail...</p>

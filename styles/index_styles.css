@@ -2,13 +2,34 @@ img {
     width: 100%;
     height: auto;
 }
-
+.box-shadow-1rem{
+    box-shadow: 0 0 1rem rgb(80, 80, 80);
+}
+.box-shadow-2rem{
+    box-shadow: 0 0 2rem rgb(80, 80, 80);
+}
+.box-shadow-3rem{
+    box-shadow: 0 0 3rem rgb(80, 80, 80);
+}
+.box-shadow-4rem{
+    box-shadow: 0 0 4rem rgb(80, 80, 80);
+}
+.box-shadow-5rem{
+    box-shadow: 0 0 5rem rgb(80, 80, 80);
+}
 .carousel-item img {
     padding: 2px;
 }
 
-.iceland-regular {
-    font-family: "Iceland", sans-serif;
+.carousel-caption .no-image-carousel {
+    color: black;
+}
+/* .carousel-caption {
+    color: black;
+} */
+
+.roboto-regular {
+    font-family: "Roboto", serif;
     font-weight: 400;
     font-style: normal;
     font-size: 3rem;
@@ -29,12 +50,17 @@ img {
     padding: 1rem;
 }
 
+.services-card-index:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
 .cards-index:hover {
     background: radial-gradient(at bottom left, #00BAEF 0%, #00BAEF 100%);
 }
 
-.cards-index .iceland-regular {
-    font-family: "Iceland", sans-serif;
+.cards-index .roboto-regular {
+    font-family: "Roboto", serif;
     font-size: 2rem;
     font-weight: 600;
     color: #FFFFFF;
@@ -51,14 +77,14 @@ img {
     height: auto;
 }
 
-.iceland-regular-text-2rem {
-    font-family: "Iceland", sans-serif;
+.roboto-regular-text-2rem {
+    font-family: "Roboto", serif;
     font-size: 2rem;
 }
 
-.iceland-regular-text-1rem {
-    font-family: "Iceland", sans-serif;
-    font-size: 2rem;
+.roboto-regular-text-1rem {
+    font-family: "Roboto", serif;
+    font-size: 1.5rem;
 }
 
 .list-group-item {
@@ -80,8 +106,9 @@ img {
 }
 
 .bg-custom-blue {
-    background: #00BAEF;
-    /* background: linear-gradient(0deg, rgba(43, 38, 113, 1) 0%, rgba(89, 146, 192, 1) 100%); */
+    /* background: #000000; */
+    /* background: linear-gradient(0deg, rgb(25, 150, 0) 0%, rgb(124, 230, 129) 100%); */
+    background: linear-gradient(177deg, rgba(48, 38, 113, 1) 0%, rgba(89, 146, 192, 1) 75%);
     margin-left: 0;
     margin-right: 0;
 }
@@ -90,12 +117,28 @@ img {
     aspect-ratio: 5/3;
 }
 
+.card {
+    background-color: transparent !important;
+}
+
 .card-body {
+    /* background: #000000; */
+    /* background: linear-gradient(0deg, rgb(14, 87, 0) 0%, rgb(65, 155, 69) 100%); */
     background: linear-gradient(177deg, rgba(48, 38, 113, 1) 0%, rgba(89, 146, 192, 1) 75%);
     aspect-ratio: 5/3;
 }
 
 .card img,
 .card .card-body {
-    box-shadow: 0 0 1rem rgba(255, 255, 255, 3);
+    box-shadow: 0 0 5rem rgb(80, 80, 80);
+}
+
+.col-lg-1-8 {
+    max-width: 12.5%;
+    height: auto;
+}
+
+.custom-image:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
 }
