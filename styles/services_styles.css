@@ -1,0 +1,8 @@
+.services-main-banner {
+  background-image: linear-gradient(260deg, #ddc3c300 17%, #ffffff 50%),
+    url(https://medvoiceinc.com/wp-content/uploads/2024/01/rmedical-transcription.webp);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+}
