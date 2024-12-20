@@ -1,0 +1,120 @@
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
+.box-shadow-2rem-black{
+    box-shadow: 0 0 2rem rgb(0, 0, 0);
+}
+
+.logo-img {
+    height: 5rem;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 95%;
+    margin: 2rem auto;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-links:hover {
+    color: #0ca854;
+    /*0ab1ef*/
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    background-color: #ffffffe5;
+}
+
+.nav-item:hover .dropdown-menu li a {
+    color: black !important;
+}
+
+.nav-item .dropdown-menu li:hover a {
+    background-color: #0ca854;
+    color: #ffffff !important;
+    animation: bounce 1s e
+}
+
+.social-media {
+    padding: 0.5rem;
+}
+
+.social-media-parent {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+}
+
+.g-plus {
+    color: #bd2e2e;
+}
+
+.facebook {
+    color: #395693;
+}
+
+.linkedin {
+    color: #0a63bc;
+}
+
+.instagram {
+    color: #f60200;
+}
+
+.twitter {
+    color: #1c9cea;
+}
+
+.social-media:hover {
+    animation: bounce 1s ease-in;
+    text-decoration: none;
+}
+
+.nav-link {
+    font-weight: 600;
+    transition: none;
+    text-wrap: nowrap;
+}
+
+.nav-item:hover a {
+    color: white !important;
+}
+
+.nav-item:hover {
+    background-color: #0ca854;
+}
+
+.navbar-roboto-regular {
+    font-family: "Roboto", serif;
+    font-size: 1.25rem;
+}
