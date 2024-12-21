@@ -5,7 +5,8 @@
         <div class="container-fluid">
             <!-- Logo -->
             <a class="navbar-brand d-flex align-items-center py-0" href="index.php">
-                <img src="./images/index/logo.png" alt="Logo" class="logo-img" />
+                <img src="./images/index/logo.png" alt="Logo" class="logo-img d-none d-lg-block" />
+                <img src="./images/index/logo.png" alt="Logo" class="logo-img-small d-block d-lg-none" />
             </a>
 
             <!-- Navbar Toggler (for Mobile View) -->
@@ -14,14 +15,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="container align-items-center justify-content-between">
-                <!-- Center Branding -->
-                <!-- <div class="col-4">
-          <h2 id="company_name" class="fw-bold mb-0 roboto-regular">Technica Forts</h2>
-        </div> -->
-
-                <!-- Links (Collapsed in Mobile) -->
-                <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item mx-lg-3 rounded-3">
                             <a class="nav-link navbar-roboto-regular" href="index.php">Home</a>
@@ -71,10 +65,9 @@
                         </li>
                     </ul>
                 </div>
-            </div>
 
             <!-- Social Media Icons -->
-            <div class="fs-5 social-media-parent">
+            <div class="fs-5 social-media-parent d-none d-lg-block">
                 <a href="#" class="social-media rounded-3 text-decoration-none g-plus" target="_blank">
                     <i class="fab fa-google-plus-square"></i>
                 </a>

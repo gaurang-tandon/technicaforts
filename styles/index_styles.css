@@ -1,3 +1,13 @@
+.bg-primary,
+.btn-primary {
+  background: linear-gradient(
+    0deg,
+    rgba(43, 38, 113, 1) 0%,
+    rgba(89, 146, 192, 1) 100%
+  ) !important;
+  border: none;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -88,7 +98,7 @@ img {
 
 .roboto-regular-text-1rem {
   font-family: "Roboto", serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .list-group-item {
@@ -125,11 +135,11 @@ img {
   aspect-ratio: 5/3;
 }
 
-.card {
+.custom-image.card {
   background-color: transparent !important;
 }
 
-.card-body {
+.custom-image .card-body {
   /* background: #000000; */
   /* background: linear-gradient(0deg, rgb(14, 87, 0) 0%, rgb(65, 155, 69) 100%); */
   background: linear-gradient(
@@ -140,14 +150,20 @@ img {
   aspect-ratio: 5/3;
 }
 
-.card img,
-.card .card-body {
+/* 
+.card img{
   box-shadow: 0 0 5rem rgb(80, 80, 80);
-}
+} */
 
-.col-lg-1-8 {
-  max-width: 12.5%;
-  height: auto;
+@media (min-width: 992px) {
+  .custom-column .col-lg-4 {
+    flex: 0 0 auto;
+    width: 12.5%;
+  }
+
+  .custom-image {
+    min-height: 6.25rem;
+  }
 }
 
 .custom-image:hover {
@@ -156,49 +172,71 @@ img {
 }
 
 #leftCarousel .carousel-item::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.733));
-    opacity: 0.5; /* Adjust transparency */
-    z-index: 1;
-  }
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.733)
+  );
+  opacity: 0.5; /* Adjust transparency */
+  z-index: 1;
+}
 
 #topRightCarousel .carousel-item::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0.733));
-    opacity: 0.7; /* Adjust transparency */
-    z-index: 1;
-  }
-  
-  #bottomRightCarousel .carousel-item::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.733), #ffffff);
-    opacity: 0.7;
-    z-index: 1;
-  }
-  
-  #leftCarousel .carousel-item img,
-  #topRightCarousel .carousel-item img,
-  #bottomRightCarousel .carousel-item img {
-    position: relative;
-    z-index: 0;
-  }
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0.733));
+  opacity: 0.7; /* Adjust transparency */
+  z-index: 1;
+}
 
-  .item-z-index{
-    z-index: 1000;
-  }
-  
+#bottomRightCarousel .carousel-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.733), #ffffff);
+  opacity: 0.7;
+  z-index: 1;
+}
+
+#leftCarousel .carousel-item img,
+#topRightCarousel .carousel-item img,
+#bottomRightCarousel .carousel-item img {
+  position: relative;
+  z-index: 0;
+}
+
+.item-z-index {
+  z-index: 1000;
+}
+
+.customer-para {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+  word-spacing: 2px;
+}
+
+.news-insights .card:hover{
+  background: linear-gradient(
+    177deg,
+    rgba(48, 38, 113, 1) 0%,
+    rgba(89, 146, 192, 1) 75%
+  );
+
+  color: #fff;
+  transition: all 0.1s ease-in;
+}

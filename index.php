@@ -235,8 +235,8 @@
                     <img src="./images/index/why_section_2.jpeg" alt="Why Choose TechnicaForts 2"
                         class="why-section-img img-flui box-shadow-1rem ">
                 </div>
-                <div class="col-md-6 text-end roboto-regular-text-1rem">
-                    <ul class="list-group text-end">
+                <div class="col-md-6 text-start text-lg-end roboto-regular-text-1rem mt-3 mt-md-0">
+                    <ul class="list-group text-start text-lg-end">
                         <li class="list-group-item fw-lighter">100% Customer Focused</li>
                         <li class="list-group-item fw-lighter">Reliable Service Provider</li>
                         <li class="list-group-item fw-lighter">Focused on Increasing Client Revenue</li>
@@ -250,63 +250,64 @@
 
         <div class="container-fluid py-4 bg-custom-blue box-shadow-2rem">
             <!-- Features Section -->
-            <div class="row g-4 p-3">
-                <div class="col-12 col-lg col-md-6 col-lg-1-8">
+            <div class="row g-4 p-3 custom-column">
+                <div class="col-6 col-md-6 col-lg-4">
                     <div class="card custom-image rounded-5 border-0">
                         <img src="./images/index/features/feature_1.jpg"
                             class="box-shadow-5rem card-img-top card-img rounded-5"
                             alt="20 Years Healthcare Experience">
                     </div>
                 </div>
-                <div class="col-12 col-lg col-md-6 col-lg-1-8">
+                <div class="col-6 col-md-6 col-lg-4">
                     <div class="card custom-image rounded-5 border-0">
                         <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex ">
-                            <h6 class="roboto-regular-text-1rem mx-auto text-center text-white">100% Client Satisfaction
-                            </h6>
+                            <p class="roboto-regular-text-1rem mx-auto text-center text-white mb-0">100% Client
+                                Satisfaction</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg col-md-6 col-lg-1-8">
+                <div class="col-6 col-md-6 col-lg-4">
                     <div class="card custom-image rounded-5 border-0">
                         <img src="./images/index/features/feature_2.jpg"
                             class="box-shadow-5rem card-img-top card-img rounded-5"
                             alt="20 Years Healthcare Experience">
                     </div>
                 </div>
-                <div class="col-12 col-lg col-md-6 col-lg-1-8">
+                <div class="col-6 col-md-6 col-lg-4">
                     <div class="card custom-image rounded-5 border-0">
                         <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex">
-                            <h6 class="roboto-regular-text-1rem mx-auto text-center text-white">20 Years Healthcare
-                                Experience</h6>
+                            <p class="roboto-regular-text-1rem mx-auto text-center text-white mb-0">20 Years Healthcare
+                                Experience</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg col-md-6 col-lg-1-8">
+                <div class="col-6 col-md-6 col-lg-4">
                     <div class="card custom-image rounded-5 border-0">
                         <img src="./images/index/features/feature_4.webp"
                             class="box-shadow-5rem card-img-top card-img rounded-5"
                             alt="20 Years Healthcare Experience">
                     </div>
                 </div>
-                <div class="col-12 col-lg col-md-6 col-lg-1-8">
+                <div class="col-6 col-md-6 col-lg-4">
                     <div class="card custom-image rounded-5 border-0">
                         <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex">
-                            <h6 class="roboto-regular-text-1rem mx-auto text-center text-white">Significant Cost Savings
-                            </h6>
+                            <p class="roboto-regular-text-1rem mx-auto text-center text-white mb-0">Significant Cost
+                                Savings</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-12 col-lg col-md-6 col-lg-1-8">
+                <div class="col-6 col-md-6 col-lg-4">
                     <div class="card custom-image rounded-5 border-0">
                         <img src="./images/index/features/feature_3.webp"
                             class="box-shadow-5rem card-img-top card-img rounded-5" alt="100% Client Satisfaction">
                     </div>
                 </div>
-                <div class="col-12 col-lg col-md-6 col-lg-1-8">
+                <div class="col-6 col-md-6 col-lg-4">
                     <div class="card custom-image rounded-5 border-0">
                         <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex">
-                            <h6 class="roboto-regular-text-1rem mx-auto text-center text-white">Increased Revenue</h6>
+                            <p class="roboto-regular-text-1rem mx-auto text-center text-white mb-0">Increased Revenue
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -315,17 +316,22 @@
     </div>
 
     <!-- Customer Success Section -->
-    <div id="customer_success_section" class="container-fluid my-5">
-        <div class="m-5 mx-auto text-center container">
-            <h2 class="roboto-regular fw-bold">Customer Success</h2>
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <p>TechnicaForts was founded nearly 20 years ago with the commitment to provide critically needed
-                        administrative services to the healthcare industry...</p>
-                    <button class="btn btn-primary">Let’s Talk</button>
-                </div>
-                <div class="col-md-6 text-center">
-                    <!-- <img src="https://via.placeholder.com/400x300" alt="Customer Success" class="img-fluid"> -->
+    <div id="customer_success_section" class="container my-5">
+        <div class="row align-items-center gx-5">
+            <div class="col-md-6">
+                <h2 class="roboto-regular fw-bold">Customer Success</h2>
+                <p class="customer-para">MedVoice was founded nearly 20 years ago with the commitment to provide
+                    critically needed Administrative Services to the Healthcare Industry that would resolve the
+                    tremendous burden and expense related to medical documentation and billing related tasks. MedVoice
+                    has remained committed to fostering lasting relationships with our Clients through delivering
+                    exceptional Services and great value that help drive our Clients' success!</p>
+                <button class="btn btn-primary fw-bold rounded-4">Let’s Talk</button>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="p-3">
+                    <img class="shadow-lg rounded-4"
+                        src="https://medvoiceinc.com/wp-content/uploads/2023/12/Happy-Doctor-scaled-1-1536x1024.jpeg"
+                        alt="Customer Success" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -334,36 +340,50 @@
     <!-- News and Insights Section -->
     <div id="new_insights" class="container-fluid px-0 my-5">
         <div class="m-5 mx-auto text-center container">
-            <h2 class="roboto-regular fw-bold">News and Insights</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card border-0">
-                        <!-- <img src="https://via.placeholder.com/150" class="card-img-top card-img" alt="News"> -->
+            <h2 class="roboto-regular fw-bold mb-4">News and Insights</h2>
+            <div class="row news-insights">
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="news-title">5 Ways RCM Services Can Improve Your Cash Flow</h5>
-                            <p>As a medical provider, you strive to offer the...</p>
-                            <a href="#" class="btn btn-link">Read More »</a>
+                            <img src="https://medvoiceinc.com/wp-content/uploads/2024/02/blog-thumb-rcm.webp"
+                                class="card-img-top card-img" alt="News">
+                            <div class="text-start mt-3">
+                                <h5 class="news-title">Behind the Scenes of Healthcare: The Vital Role of Medical
+                                    Scribes
+                                </h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto eligendi quidem necessitatibus ducimus velit nemo, fugit, repellat magnam nulla odio sequi perferendis, voluptatem nostrum. Magnam ducimus dolor repudiandae iure!</p>
+                                <a href="#" class="btn btn-primary">Read More »</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card border-0">
-                        <!-- <img src="https://via.placeholder.com/150" class="card-img-top card-img" alt="News"> -->
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="news-title">Behind the Scenes of Healthcare: The Vital Role of Medical Scribes
-                            </h5>
-                            <p>In the ever-evolving landscape of healthcare, there’s a critical...</p>
-                            <a href="#" class="btn btn-link">Read More »</a>
+                            <img src="https://medvoiceinc.com/wp-content/uploads/2024/02/blog-thumb-rcm.webp"
+                                class="card-img-top card-img" alt="News">
+                            <div class="text-start mt-3">
+                                <h5 class="news-title">Behind the Scenes of Healthcare: The Vital Role of Medical
+                                    Scribes
+                                </h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto eligendi quidem necessitatibus ducimus velit nemo, fugit, repellat magnam nulla odio sequi perferendis, voluptatem nostrum. Magnam ducimus dolor repudiandae iure!</p>
+                                <a href="#" class="btn btn-primary">Read More »</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card border-0">
-                        <!-- <img src="https://via.placeholder.com/150" class="card-img-top card-img" alt="News"> -->
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="news-title">The Art and Science of Medical Transcription</h5>
-                            <p>In the fast-paced world of healthcare, where every detail...</p>
-                            <a href="#" class="btn btn-link">Read More »</a>
+                            <img src="https://medvoiceinc.com/wp-content/uploads/2024/02/blog-thumb-rcm.webp"
+                                class="card-img-top card-img" alt="News">
+                            <div class="text-start mt-3">
+                                <h5 class="news-title">Behind the Scenes of Healthcare: The Vital Role of Medical
+                                    Scribes
+                                </h5>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto eligendi quidem necessitatibus ducimus velit nemo, fugit, repellat magnam nulla odio sequi perferendis, voluptatem nostrum. Magnam ducimus dolor repudiandae iure!</p>
+                                <a href="#" class="btn btn-primary">Read More »</a>
+                            </div>
                         </div>
                     </div>
                 </div>
