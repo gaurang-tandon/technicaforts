@@ -126,12 +126,12 @@
         </div>
     </div>
 
-    <div id="our_services" class="container-fluid text-center my-5">
+    <div id="our_services" class="container text-center my-5">
         <div class="row">
-            <div class="col-12 col-lg-6 mx-auto">
-                <h1 class="roboto-regular fw-bold">Our Services</h1>
+            <div class="col-12 col-lg-10 mx-auto">
+                <h2 class="roboto-regular fw-bold">Our Services</h2>
                 <span>
-                    <p class="fs-4 fw-lighter text roboto-regular-text-1rem">
+                    <p class="fw-lighter text roboto-regular-text-1rem">
                         TechnicaForts is a leading Medical Service Provider that excels in
                         Medical Coding, Medical Documentation, and Revenue Cycle
                         Management. By seamlessly integrating cutting-edge technologies
@@ -143,180 +143,173 @@
                 </span>
             </div>
         </div>
-        <div class="container" id="">
-            <div class="row g-5 text-start">
-                <a class="col-12 col-md-6 col-lg-4 text-decoration-none" href="./services/revenue_cycle_management.php">
-                    <div class="rounded-4 services-card-index cards-index box-shadow-1rem">
-                        <img class="services-png" src="./images/cycle.png" alt="" class="src" />
-                        <h6 class="roboto-regular">Revenue Cycle Management (RCM)</h6>
-                        <p class="mb-0 roboto-regular-text-1rem">
+        <div class="row g-2 g-lg-4 text-start">
+            <a class="col-6 col-md-4 col-lg-4 text-decoration-none" href="./services/revenue_cycle_management.php">
+                <div
+                    class="custom-hover d-flex align-items-center justify-content-center rounded-4 services-card-index cards-index box-shadow-1rem">
+                    <div class="py-2 py-lg-4">
+                        <img width="50px" class="services-png" src="./images/cycle.png" alt="" class="src" />
+                        <h6 class="roboto-regular pt-2 line-break">Revenue Cycle Management (RCM)</h6>
+                        <p class="mb-0 roboto-regular-text-1rem d-none d-md-block">
                             TechnicaForts’s RCM Service optimizes the claims process,
                             significantly increases revenue, and greatly reduces medical
                             billing costs.
                         </p>
                     </div>
-                </a>
-                <a class="col-12 col-md-6 col-lg-4 text-decoration-none" href="./services/medical_record_review.php">
-                    <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
-                        <img class="services-png" src="./images/preview.png" alt="" class="src" />
-                        <h6 class="roboto-regular">Medical Record Review</h6>
-                        <p class="mb-0 roboto-regular-text-1rem">
-                            TechnicaForts provides expert Medical Record Review and Summarization
-                            Services for Insurance Companies, Workers Compensation
-                            organizations, and personal injury Law Firms.
+                </div>
+            </a>
+            <a class="col-6 col-md-4 col-lg-4 text-decoration-none" href="./services/revenue_cycle_management.php">
+                <div
+                    class="custom-hover d-flex align-items-center justify-content-center rounded-4 services-card-index cards-index box-shadow-1rem">
+                    <div class="py-2 py-lg-4">
+                        <img width="50px" class="services-png" src="./images/preview.png" alt="" class="src" />
+                        <h6 class="roboto-regular pt-2 line-break">Medical Record Review</h6>
+                        <p class="mb-0 roboto-regular-text-1rem d-none d-md-block">
+                            TechnicaForts’s RCM Service optimizes the claims process,
+                            significantly increases revenue, and greatly reduces medical
+                            billing costs.
                         </p>
                     </div>
-                </a>
-                <a class="col-12 col-md-6 col-lg-4 text-decoration-none" href="./services/medical_transcription.php">
-                    <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
-                        <img class="services-png" src="./images/transcription.png" alt="" class="src" />
-                        <h6 class="roboto-regular">Medical Transcription</h6>
-                        <p class="mb-0 roboto-regular-text-1rem">
-                            100% secure Medical Transcription Services with guaranteed
-                            Turn-Around Times and accuracy, saving significant time and
-                            money for our Clients.
+                </div>
+            </a>
+            <a class="col-6 col-md-4 col-lg-4 text-decoration-none" href="./services/revenue_cycle_management.php">
+                <div
+                    class="custom-hover d-flex align-items-center justify-content-center rounded-4 services-card-index cards-index box-shadow-1rem">
+                    <div class="py-2 py-lg-4">
+                        <img width="50px" class="services-png" src="./images/transcription.png" alt="" class="src" />
+                        <h6 class="roboto-regular pt-2 line-break">Medical Transcription</h6>
+                        <p class="mb-0 roboto-regular-text-1rem d-none d-md-block">
+                            TechnicaForts’s RCM Service optimizes the claims process,
+                            significantly increases revenue, and greatly reduces medical
+                            billing costs.
                         </p>
                     </div>
-                </a>
-                <a class="col-12 col-md-6 col-lg-4 text-decoration-none" href="./services/medical_scribing.php">
-                    <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
-                        <img class="services-png" src="./images/writing.png" alt="" class="src" />
-                        <h6 class="roboto-regular">Medical Scribing</h6>
-                        <p class="mb-0 roboto-regular-text-1rem">
-                            TechnicaForts provides state-of-the-art Medical Scribing Services
-                            that combines advanced AI Technology with expert Medical
-                            Documentation Specialists.
+                </div>
+            </a>
+            <a class="col-6 col-md-4 col-lg-4 text-decoration-none" href="./services/revenue_cycle_management.php">
+                <div
+                    class="custom-hover d-flex align-items-center justify-content-center rounded-4 services-card-index cards-index box-shadow-1rem">
+                    <div class="py-2 py-lg-4">
+                        <img width="50px" class="services-png" src="./images/writing.png" alt="" class="src" />
+                        <h6 class="roboto-regular pt-2 line-break">Medical Scribing</h6>
+                        <p class="mb-0 roboto-regular-text-1rem d-none d-md-block">
+                            TechnicaForts’s RCM Service optimizes the claims process,
+                            significantly increases revenue, and greatly reduces medical
+                            billing costs.
                         </p>
                     </div>
-                </a>
-                <a class="col-12 col-md-6 col-lg-4 text-decoration-none" href="./services/medical_coding.php">
-                    <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
-                        <img class="services-png" src="./images/coding.png" alt="" class="src" />
-                        <h6 class="roboto-regular">Medical Coding</h6>
-                        <p class="mb-0 roboto-regular-text-1rem">
-                            TechnicaForts's Medical Coding Service provides highly accurate
-                            medical coding, eliminates incorrect and omitted codes, and
-                            ensures the highest and fastest reimbursement rates.
+                </div>
+            </a>
+            <a class="col-6 col-md-4 col-lg-4 text-decoration-none" href="./services/revenue_cycle_management.php">
+                <div
+                    class="custom-hover d-flex align-items-center justify-content-center rounded-4 services-card-index cards-index box-shadow-1rem">
+                    <div class="py-2 py-lg-4">
+                        <img width="50px" class="services-png" src="./images/coding.png" alt="" class="src" />
+                        <h6 class="roboto-regular pt-2 line-break">Medical Coding</h6>
+                        <p class="mb-0 roboto-regular-text-1rem d-none d-md-block">
+                            TechnicaForts’s RCM Service optimizes the claims process,
+                            significantly increases revenue, and greatly reduces medical
+                            billing costs.
                         </p>
                     </div>
-                </a>
-                <a class="col-12 col-md-6 col-lg-4 text-decoration-none" href="./services/pharmacovigilance.php">
-                    <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
-                        <img class="services-png" src="./images/injection.png" alt="" class="src" />
-                        <h6 class="roboto-regular">Pharmacovigilance</h6>
-                        <p class="mb-0 roboto-regular-text-1rem">
-                            TechnicaForts ensures patient safety and regulatory compliance
-                            through vigilant pharmacovigilance and literature surveillance.
+                </div>
+            </a>
+            <a class="col-6 col-md-4 col-lg-4 text-decoration-none" href="./services/revenue_cycle_management.php">
+                <div
+                    class="custom-hover d-flex align-items-center justify-content-center rounded-4 services-card-index cards-index box-shadow-1rem">
+                    <div class="py-2 py-lg-4">
+                        <img width="50px" class="services-png" src="./images/injection.png" alt="" class="src" />
+                        <h6 class="roboto-regular pt-2 line-break">Pharmacovigilance</h6>
+                        <p class="mb-0 roboto-regular-text-1rem d-none d-md-block">
+                            TechnicaForts’s RCM Service optimizes the claims process,
+                            significantly increases revenue, and greatly reduces medical
+                            billing costs.
                         </p>
                     </div>
-                </a>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div id="why_section" class="container custom-container my-5">
+        <div class="row text-center">
+            <div class="col-12">
+                <h2 class="roboto-regular fw-bold">Why Choose TechnicaForts?</h2>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-5 text-start text-md-end roboto-regular-text-1rem">
+                        <p class="fw-lighter">TechnicaForts has been extremely honored to have maintained 100% customer
+                            retention over
+                            our nearly two
+                            decades providing services to the healthcare industry!</p>
+                    </div>
+                    <div class="col-12 col-md-5 text-end">
+                        <img src="./images/index/why_section_1.jpeg" alt="Why Choose TechnicaForts 1"
+                            class="rounded-4 shadow-lg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-5 text-start">
+                        <img src="./images/index/why_section_2.jpeg" alt="Why Choose TechnicaForts 2"
+                            class="rounded-4 shadow-lg">
+                    </div>
+                    <div class="col-12 col-md-5 text-start roboto-regular-text-1rem mt-3 mt-md-0">
+                        <ul class="choose-list">
+                            <li class="">100% Customer Focused</li>
+                            <li class="">Reliable Service Provider</li>
+                            <li class="">Focused on Increasing Client Revenue</li>
+                            <li class="">Dedicated U.S. Account Team</li>
+                            <li class="">Highly Experienced Teams</li>
+                            <li class="">Always Working to Lower Client Costs</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div id="why_section" class="container-fluid my-5 px-0">
-        <div class="m-5 mx-auto text-center container">
-            <!-- Why Choose TechnicaForts Section -->
-            <h2 class="roboto-regular fw-bold shadow-rem">Why Choose TechnicaForts?</h2>
-            <div class="row justify-content-center align-items-center my-5">
-                <div class="col-5 text-start roboto-regular-text-1rem">
-                    <p class="fw-lighter">TechnicaForts has been extremely honored to have maintained 100% customer
-                        retention over
-                        our nearly two
-                        decades providing services to the healthcare industry!</p>
-                </div>
-                <div class="col-5 text-end">
-                    <img src="./images/index/why_section_1.jpeg" alt="Why Choose TechnicaForts 1"
-                        class="why-section-img img-fluid box-shadow-1rem">
-                </div>
-            </div>
-            <div class="row justify-content-center align-items-center my-5">
-                <div class="col-5 text-start">
-                    <img src="./images/index/why_section_2.jpeg" alt="Why Choose TechnicaForts 2"
-                        class="why-section-img img-flui box-shadow-1rem ">
-                </div>
-                <div class="col-5 text-start text-lg-end roboto-regular-text-1rem mt-3 mt-md-0">
-                    <ul class="list-group text-start text-lg-end">
-                        <li class="list-group-item fw-lighter">100% Customer Focused</li>
-                        <li class="list-group-item fw-lighter">Reliable Service Provider</li>
-                        <li class="list-group-item fw-lighter">Focused on Increasing Client Revenue</li>
-                        <li class="list-group-item fw-lighter">Dedicated U.S. Account Team</li>
-                        <li class="list-group-item fw-lighter">Highly Experienced Teams</li>
-                        <li class="list-group-item fw-lighter">Always Working to Lower Client Costs</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 
-        <div class="container-fluid py-4 bg-custom-blue box-shadow-2rem">
-            <!-- Features Section -->
-            <div class="row g-4 p-3 custom-column">
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="card custom-image rounded-5 border-0">
-                        <img src="./images/index/features/feature_1.jpg"
-                            class="box-shadow-5rem card-img-top card-img rounded-5"
-                            alt="20 Years Healthcare Experience">
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="card custom-image rounded-5 border-0">
-                        <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex ">
-                            <p class="roboto-regular-text-3rem mx-auto text-center text-white mb-0">100% Client
-                                Satisfaction</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="card custom-image rounded-5 border-0">
-                        <img src="./images/index/features/feature_2.jpg"
-                            class="box-shadow-5rem card-img-top card-img rounded-5"
-                            alt="20 Years Healthcare Experience">
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="card custom-image rounded-5 border-0">
-                        <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex">
-                            <p class="roboto-regular-text-3rem mx-auto text-center text-white mb-0">20 Years Healthcare
-                                Experience</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="card custom-image rounded-5 border-0">
-                        <img src="./images/index/features/feature_4.webp"
-                            class="box-shadow-5rem card-img-top card-img rounded-5"
-                            alt="20 Years Healthcare Experience">
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="card custom-image rounded-5 border-0">
-                        <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex">
-                            <p class="roboto-regular-text-3rem mx-auto text-center text-white mb-0">Significant Cost
-                                Savings</p>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="card custom-image rounded-5 border-0">
-                        <img src="./images/index/features/feature_3.webp"
-                            class="box-shadow-5rem card-img-top card-img rounded-5" alt="100% Client Satisfaction">
-                    </div>
-                </div>
-                <div class="col-6 col-md-6 col-lg-4">
-                    <div class="card custom-image rounded-5 border-0">
-                        <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex">
-                            <p class="roboto-regular-text-3rem mx-auto text-center text-white mb-0">Increased Revenue
-                            </p>
-                        </div>
-                    </div>
-                </div>
+    <div class="container-fluid py-4 bg-custom-blue box-shadow-2rem">
+        <!-- Features Section -->
+        <div class="row g-3">
+            <div class="col-6 col-md-6 col-lg-4 image-column">
+                <img class="rounded-5 custom-hover" src="./images/index/features/feature_1.jpg">
+            </div>
+            <div class="col-6 col-md-6 col-lg-4 text-column rounded-5 custom-hover">
+                <p class="text-light mb-0">100% Client
+                    Satisfaction</p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-4 image-column custom-hover">
+                <img class="rounded-5" src="./images/index/features/feature_2.jpg">
+            </div>
+            <div class="col-6 col-md-6 col-lg-4 text-column  rounded-5 custom-hover">
+                <p class="text-light mb-0">100% Client
+                    Satisfaction</p>
+            </div>
+            <div class="col-6 col-md-6 col-lg-4 image-column custom-hover">
+                <img class="rounded-5" src="./images/index/features/feature_3.webp">
+            </div>
+            <div class="col-6 col-md-6 col-lg-4 text-column rounded-5 custom-hover">
+                <p class="text-light mb-0">100% Client
+                    Satisfaction</p>
+            </div>
+
+            <div class="col-6 col-md-6 col-lg-4 image-column custom-hover">
+                <img class="rounded-5" src="./images/index/features/feature_3.webp">
+            </div>
+            <div class="col-6 col-md-6 col-lg-4 text-column rounded-5 custom-hover">
+                <p class="text-light mb-0">100% Client
+                    Satisfaction</p>
             </div>
         </div>
     </div>
 
     <!-- Customer Success Section -->
-    <div id="customer_success_section" class="container my-5">
+    <div id="customer_success_section" class="container custom-container my-5">
         <div class="row align-items-center gx-5">
             <div class="col-md-6">
                 <h2 class="roboto-regular fw-bold">Customer Success</h2>
@@ -338,20 +331,23 @@
     </div>
 
     <!-- News and Insights Section -->
-    <div id="new_insights" class="container-fluid px-0 my-5">
+    <div id="" class="container-fluid px-0 my-5 new_insights">
         <div class="m-5 mx-auto text-center container">
             <h2 class="roboto-regular fw-bold mb-4">News and Insights</h2>
             <div class="row news-insights">
                 <div class="col-12 col-md-6 col-lg-4 mb-3">
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body new_insights">
                             <img src="https://medvoiceinc.com/wp-content/uploads/2024/02/blog-thumb-rcm.webp"
                                 class="card-img-top card-img" alt="News">
                             <div class="text-start mt-3">
-                                <h5 class="news-title">Behind the Scenes of Healthcare: The Vital Role of Medical
+                                <h6 class="news-title fw-bold">Behind the Scenes of Healthcare: The Vital Role of
+                                    Medical
                                     Scribes
-                                </h5>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto eligendi quidem necessitatibus ducimus velit nemo, fugit, repellat magnam nulla odio sequi perferendis, voluptatem nostrum. Magnam ducimus dolor repudiandae iure!</p>
+                                </h6>
+                                <p class="three-line-ellipsis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto eligendi
+                                    quidem necessitatibus ducimus velit nemo, fugit, repellat magnam nulla odio sequi
+                                    perferendis, voluptatem nostrum. Magnam ducimus dolor repudiandae iure!</p>
                                 <a href="#" class="btn btn-primary">Read More »</a>
                             </div>
                         </div>
@@ -359,14 +355,16 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 mb-3">
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body new_insights">
                             <img src="https://medvoiceinc.com/wp-content/uploads/2024/02/blog-thumb-rcm.webp"
                                 class="card-img-top card-img" alt="News">
                             <div class="text-start mt-3">
-                                <h5 class="news-title">Behind the Scenes of Healthcare: The Vital Role of Medical
+                                <h6 class="news-title fw-bold">Behind the Scenes of Healthcare: The Vital Role of Medical
                                     Scribes
-                                </h5>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto eligendi quidem necessitatibus ducimus velit nemo, fugit, repellat magnam nulla odio sequi perferendis, voluptatem nostrum. Magnam ducimus dolor repudiandae iure!</p>
+                                </h6>
+                                <p class="three-line-ellipsis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto eligendi
+                                    quidem necessitatibus ducimus velit nemo, fugit, repellat magnam nulla odio sequi
+                                    perferendis, voluptatem nostrum. Magnam ducimus dolor repudiandae iure!</p>
                                 <a href="#" class="btn btn-primary">Read More »</a>
                             </div>
                         </div>
@@ -374,14 +372,16 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 mb-3">
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body new_insights">
                             <img src="https://medvoiceinc.com/wp-content/uploads/2024/02/blog-thumb-rcm.webp"
                                 class="card-img-top card-img" alt="News">
                             <div class="text-start mt-3">
-                                <h5 class="news-title">Behind the Scenes of Healthcare: The Vital Role of Medical
+                                <h6 class="news-title fw-bold">Behind the Scenes of Healthcare: The Vital Role of Medical
                                     Scribes
-                                </h5>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto eligendi quidem necessitatibus ducimus velit nemo, fugit, repellat magnam nulla odio sequi perferendis, voluptatem nostrum. Magnam ducimus dolor repudiandae iure!</p>
+                                </h6>
+                                <p class="three-line-ellipsis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto eligendi
+                                    quidem necessitatibus ducimus velit nemo, fugit, repellat magnam nulla odio sequi
+                                    perferendis, voluptatem nostrum. Magnam ducimus dolor repudiandae iure!</p>
                                 <a href="#" class="btn btn-primary">Read More »</a>
                             </div>
                         </div>

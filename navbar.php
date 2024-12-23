@@ -4,7 +4,7 @@
 <nav class="navbar navbar-expand-lg bg-white box-shadow-2rem-black px-2 px-lg-5 py-1">
         <div class="container-fluid">
             <!-- Logo -->
-            <a class="navbar-brand d-flex align-items-center py-0" href="index.php">
+            <a class="navbar-brand d-flex align-items-center py-0 text-center mx-auto" href="index.php">
                 <img src="./images/index/logo.png" alt="Logo" class="logo-img d-none d-lg-block" />
                 <img src="./images/index/logo.png" alt="Logo" class="logo-img-small d-block d-lg-none" />
             </a>
