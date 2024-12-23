@@ -47,8 +47,10 @@
 }
 
 /* Font Styling */
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
+.montserrat-regular {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   font-weight: 400;
 }
 

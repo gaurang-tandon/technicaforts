@@ -8,16 +8,17 @@
     <title>Home</title>
 
     <!-- Bootstrap 5.3 CSS CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="./styles/bootstrap.min.css" rel="stylesheet"
         crossorigin="anonymous" />
 
     <!-- Font Awesome CDN for Icons and Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
     <!-- Bootstrap 5.3 JS CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
+    <script src="./script/bootstrap.bundle.min.js" crossorigin="anonymous">
     </script>
 
     <link rel="stylesheet" href="./styles/index_styles.css" />
@@ -129,9 +130,9 @@
     <div id="our_services" class="container text-center my-5">
         <div class="row">
             <div class="col-12 col-lg-10 mx-auto">
-                <h2 class="roboto-regular fw-bold">Our Services</h2>
+                <h2 class="fw-bold">Our Services</h2>
                 <span>
-                    <p class="fw-lighter text roboto-regular-text-1rem">
+                    <p class="fw-lighter">
                         TechnicaForts is a leading Medical Service Provider that excels in
                         Medical Coding, Medical Documentation, and Revenue Cycle
                         Management. By seamlessly integrating cutting-edge technologies
@@ -149,8 +150,8 @@
                     class="custom-hover d-flex align-items-center justify-content-center rounded-4 services-card-index cards-index box-shadow-1rem">
                     <div class="py-2 py-lg-4">
                         <img width="50px" class="services-png" src="./images/cycle.png" alt="" class="src" />
-                        <h6 class="roboto-regular pt-2 line-break">Revenue Cycle Management (RCM)</h6>
-                        <p class="mb-0 roboto-regular-text-1rem d-none d-md-block">
+                        <h6 class="pt-2 line-break">Revenue Cycle Management (RCM)</h6>
+                        <p class="mb-0 d-none d-md-block">
                             TechnicaForts’s RCM Service optimizes the claims process,
                             significantly increases revenue, and greatly reduces medical
                             billing costs.
@@ -163,8 +164,8 @@
                     class="custom-hover d-flex align-items-center justify-content-center rounded-4 services-card-index cards-index box-shadow-1rem">
                     <div class="py-2 py-lg-4">
                         <img width="50px" class="services-png" src="./images/preview.png" alt="" class="src" />
-                        <h6 class="roboto-regular pt-2 line-break">Medical Record Review</h6>
-                        <p class="mb-0 roboto-regular-text-1rem d-none d-md-block">
+                        <h6 class="pt-2 line-break">Medical Record Review</h6>
+                        <p class="mb-0 d-none d-md-block">
                             TechnicaForts’s RCM Service optimizes the claims process,
                             significantly increases revenue, and greatly reduces medical
                             billing costs.
@@ -177,8 +178,8 @@
                     class="custom-hover d-flex align-items-center justify-content-center rounded-4 services-card-index cards-index box-shadow-1rem">
                     <div class="py-2 py-lg-4">
                         <img width="50px" class="services-png" src="./images/transcription.png" alt="" class="src" />
-                        <h6 class="roboto-regular pt-2 line-break">Medical Transcription</h6>
-                        <p class="mb-0 roboto-regular-text-1rem d-none d-md-block">
+                        <h6 class="pt-2 line-break">Medical Transcription</h6>
+                        <p class="mb-0 d-none d-md-block">
                             TechnicaForts’s RCM Service optimizes the claims process,
                             significantly increases revenue, and greatly reduces medical
                             billing costs.
@@ -191,8 +192,8 @@
                     class="custom-hover d-flex align-items-center justify-content-center rounded-4 services-card-index cards-index box-shadow-1rem">
                     <div class="py-2 py-lg-4">
                         <img width="50px" class="services-png" src="./images/writing.png" alt="" class="src" />
-                        <h6 class="roboto-regular pt-2 line-break">Medical Scribing</h6>
-                        <p class="mb-0 roboto-regular-text-1rem d-none d-md-block">
+                        <h6 class="pt-2 line-break">Medical Scribing</h6>
+                        <p class="mb-0 d-none d-md-block">
                             TechnicaForts’s RCM Service optimizes the claims process,
                             significantly increases revenue, and greatly reduces medical
                             billing costs.
@@ -205,8 +206,8 @@
                     class="custom-hover d-flex align-items-center justify-content-center rounded-4 services-card-index cards-index box-shadow-1rem">
                     <div class="py-2 py-lg-4">
                         <img width="50px" class="services-png" src="./images/coding.png" alt="" class="src" />
-                        <h6 class="roboto-regular pt-2 line-break">Medical Coding</h6>
-                        <p class="mb-0 roboto-regular-text-1rem d-none d-md-block">
+                        <h6 class="pt-2 line-break">Medical Coding</h6>
+                        <p class="mb-0 d-none d-md-block">
                             TechnicaForts’s RCM Service optimizes the claims process,
                             significantly increases revenue, and greatly reduces medical
                             billing costs.
@@ -219,8 +220,8 @@
                     class="custom-hover d-flex align-items-center justify-content-center rounded-4 services-card-index cards-index box-shadow-1rem">
                     <div class="py-2 py-lg-4">
                         <img width="50px" class="services-png" src="./images/injection.png" alt="" class="src" />
-                        <h6 class="roboto-regular pt-2 line-break">Pharmacovigilance</h6>
-                        <p class="mb-0 roboto-regular-text-1rem d-none d-md-block">
+                        <h6 class="pt-2 line-break">Pharmacovigilance</h6>
+                        <p class="mb-0 d-none d-md-block">
                             TechnicaForts’s RCM Service optimizes the claims process,
                             significantly increases revenue, and greatly reduces medical
                             billing costs.
@@ -234,11 +235,11 @@
     <div id="why_section" class="container custom-container my-5">
         <div class="row text-center">
             <div class="col-12">
-                <h2 class="roboto-regular fw-bold">Why Choose TechnicaForts?</h2>
+                <h2 class="fw-bold">Why Choose TechnicaForts?</h2>
             </div>
             <div class="col-12 mt-4">
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-12 col-md-5 text-start text-md-end roboto-regular-text-1rem">
+                    <div class="col-12 col-md-5 text-start text-md-end">
                         <p class="fw-lighter">TechnicaForts has been extremely honored to have maintained 100% customer
                             retention over
                             our nearly two
@@ -256,7 +257,7 @@
                         <img src="./images/index/why_section_2.jpeg" alt="Why Choose TechnicaForts 2"
                             class="rounded-4 shadow-lg">
                     </div>
-                    <div class="col-12 col-md-5 text-start roboto-regular-text-1rem mt-3 mt-md-0">
+                    <div class="col-12 col-md-5 text-start mt-3 mt-md-0">
                         <ul class="choose-list">
                             <li class="">100% Customer Focused</li>
                             <li class="">Reliable Service Provider</li>
@@ -312,13 +313,12 @@
     <div id="customer_success_section" class="container custom-container my-5">
         <div class="row align-items-center gx-5">
             <div class="col-md-6">
-                <h2 class="roboto-regular fw-bold">Customer Success</h2>
+                <h2 class="fw-bold">Customer Success</h2>
                 <p class="customer-para">MedVoice was founded nearly 20 years ago with the commitment to provide
                     critically needed Administrative Services to the Healthcare Industry that would resolve the
                     tremendous burden and expense related to medical documentation and billing related tasks. MedVoice
                     has remained committed to fostering lasting relationships with our Clients through delivering
                     exceptional Services and great value that help drive our Clients' success!</p>
-                <button class="btn btn-primary fw-bold rounded-4">Let’s Talk</button>
             </div>
             <div class="col-md-6 text-center">
                 <div class="p-3">
@@ -333,7 +333,7 @@
     <!-- News and Insights Section -->
     <div id="" class="container-fluid px-0 my-5 new_insights">
         <div class="m-5 mx-auto text-center container">
-            <h2 class="roboto-regular fw-bold mb-4">News and Insights</h2>
+            <h2 class="fw-bold mb-4">News and Insights</h2>
             <div class="row news-insights">
                 <div class="col-12 col-md-6 col-lg-4 mb-3">
                     <div class="card">
@@ -348,7 +348,7 @@
                                 <p class="three-line-ellipsis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto eligendi
                                     quidem necessitatibus ducimus velit nemo, fugit, repellat magnam nulla odio sequi
                                     perferendis, voluptatem nostrum. Magnam ducimus dolor repudiandae iure!</p>
-                                <a href="#" class="btn btn-primary">Read More »</a>
+                                <a href="#">Read More »</a>
                             </div>
                         </div>
                     </div>
@@ -365,7 +365,7 @@
                                 <p class="three-line-ellipsis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto eligendi
                                     quidem necessitatibus ducimus velit nemo, fugit, repellat magnam nulla odio sequi
                                     perferendis, voluptatem nostrum. Magnam ducimus dolor repudiandae iure!</p>
-                                <a href="#" class="btn btn-primary">Read More »</a>
+                                <a href="#">Read More »</a>
                             </div>
                         </div>
                     </div>
@@ -382,7 +382,7 @@
                                 <p class="three-line-ellipsis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto eligendi
                                     quidem necessitatibus ducimus velit nemo, fugit, repellat magnam nulla odio sequi
                                     perferendis, voluptatem nostrum. Magnam ducimus dolor repudiandae iure!</p>
-                                <a href="#" class="btn btn-primary">Read More »</a>
+                                <a href="#">Read More »</a>
                             </div>
                         </div>
                     </div>
