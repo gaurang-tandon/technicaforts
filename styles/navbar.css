@@ -1,62 +1,78 @@
+/* Bounce Animation Keyframes */
 @keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
+  0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
-
   40% {
     transform: translateY(-10px);
   }
-
   60% {
     transform: translateY(-5px);
   }
 }
+
+/* Box Shadow */
 .box-shadow-2rem-black {
-  box-shadow: 0 0 2rem rgb(0, 0, 0);
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
 }
 
+/* Logo Images */
 .logo-img,
 .logo-img-small {
-  height: 5rem;
+  height: clamp(3rem, 4vw, 5rem); /* Dynamic scaling */
   width: auto;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .logo-img-small {
-  height: 3rem;
+  height: clamp(2.5rem, 3vw, 4rem);
 }
 
+/* Navbar */
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  width: 95%;
-  margin: 2rem auto;
+  width: 90%; /* Reduced width for better centering */
+  margin: clamp(1rem, 2vw, 2rem) auto; /* Dynamic margin */
   z-index: 10;
-  border-radius: 10px;
+  border-radius: 0.5rem;
+  padding: clamp(0.5rem, 1vw, 1rem); /* Adjustable padding */
+  background-color: #fff;
+  display: flex;
+  align-items: center; /* Ensures vertical alignment */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Font Styling */
 .roboto-regular {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-style: normal;
+}
+
+/* Navbar Links */
+.nav-link {
+  font-weight: 600;
+  font-size: clamp(0.9rem, 1.2vw, 1.25rem);
+  padding: 0.5rem 1rem;
+  line-height: 1.5;
+  color: #333;
+  transition: color 0.3s ease;
 }
 
 .navbar-links:hover {
-  color: #0ca854;
-  /*0ab1ef*/
+  color: #00aef0;
 }
 
+/* Dropdown Menu */
 .nav-item.dropdown:hover .dropdown-menu {
   display: block;
-  margin-top: 0;
-  background-color: #ffffffe5;
+  margin-top: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .nav-item:hover .dropdown-menu li a {
@@ -64,18 +80,29 @@
 }
 
 .nav-item .dropdown-menu li:hover a {
-  background-color: #0ca854;
+  background-color: #00aef0;
   color: #ffffff !important;
-  animation: bounce 1s e;
+  animation: bounce 1s ease-in-out;
 }
 
+/* Social Media Hover with Bounce Effect */
+/* Social Media Icons */
 .social-media {
+  display: inline-block; /* Ensure block-level for transform to work */
   padding: 0.5rem;
+  font-size: clamp(1rem, 1.5vw, 2rem);
+  transition: transform 0.3s ease-in-out; /* Smooth scaling on hover exit */
+}
+
+/* Hover Effect */
+.social-media:hover {
+  animation: bounce 1s ease-in-out; /* Trigger bounce animation */
+  text-decoration: none;
 }
 
 .social-media-parent {
   display: flex;
-  gap: 0.5rem;
+  gap: clamp(0.5rem, 1vw, 1.5rem);
   flex-wrap: nowrap;
 }
 
@@ -99,26 +126,49 @@
   color: #1c9cea;
 }
 
-.social-media:hover {
-  animation: bounce 1s ease-in;
-  text-decoration: none;
-}
-
-.nav-link {
-  font-weight: 600;
-  transition: none;
-  text-wrap: nowrap;
-}
-
+/* Navbar Hover Effects */
 .nav-item:hover a {
   color: white !important;
 }
 
 .nav-item:hover {
-  background-color: #0ca854;
+  background-color: #00aef0;
 }
 
-.navbar-roboto-regular {
-  font-family: "Roboto", serif;
-  font-size: 1.25rem;
+/* Dropdown Menu Styling */
+.dropdown-menu {
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: clamp(0.9rem, 1vw, 1.1rem);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem; /* Reduce padding */
+    width: 95%;
+  }
+  .nav-link {
+    font-size: 0.9rem; /* Adjust text size */
+    padding: 0.4rem 0.8rem;
+  }
+  .social-media {
+    font-size: 1rem; /* Smaller icons */
+  }
+}
+
+@media (max-width: 576px) {
+  .logo-img {
+    height: 3.5rem; /* Adjust for smaller screens */
+  }
+  .logo-img-small {
+    height: 2.5rem;
+  }
+  .navbar {
+    padding: 0.4rem; /* Compact padding */
+    margin: 0.5rem auto;
+  }
+  .nav-link {
+    font-size: 0.85rem;
+  }
 }

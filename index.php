@@ -146,10 +146,10 @@
         <div class="container" id="">
             <div class="row g-5 text-start">
                 <a class="col-12 col-md-6 col-lg-4 text-decoration-none" href="./services/revenue_cycle_management.php">
-                    <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
+                    <div class="rounded-4 services-card-index cards-index box-shadow-1rem">
                         <img class="services-png" src="./images/cycle.png" alt="" class="src" />
                         <h6 class="roboto-regular">Revenue Cycle Management (RCM)</h6>
-                        <p class="mb-0">
+                        <p class="mb-0 roboto-regular-text-1rem">
                             TechnicaForts’s RCM Service optimizes the claims process,
                             significantly increases revenue, and greatly reduces medical
                             billing costs.
@@ -160,7 +160,7 @@
                     <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
                         <img class="services-png" src="./images/preview.png" alt="" class="src" />
                         <h6 class="roboto-regular">Medical Record Review</h6>
-                        <p class="mb-0">
+                        <p class="mb-0 roboto-regular-text-1rem">
                             TechnicaForts provides expert Medical Record Review and Summarization
                             Services for Insurance Companies, Workers Compensation
                             organizations, and personal injury Law Firms.
@@ -171,7 +171,7 @@
                     <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
                         <img class="services-png" src="./images/transcription.png" alt="" class="src" />
                         <h6 class="roboto-regular">Medical Transcription</h6>
-                        <p class="mb-0">
+                        <p class="mb-0 roboto-regular-text-1rem">
                             100% secure Medical Transcription Services with guaranteed
                             Turn-Around Times and accuracy, saving significant time and
                             money for our Clients.
@@ -182,7 +182,7 @@
                     <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
                         <img class="services-png" src="./images/writing.png" alt="" class="src" />
                         <h6 class="roboto-regular">Medical Scribing</h6>
-                        <p class="mb-0">
+                        <p class="mb-0 roboto-regular-text-1rem">
                             TechnicaForts provides state-of-the-art Medical Scribing Services
                             that combines advanced AI Technology with expert Medical
                             Documentation Specialists.
@@ -193,7 +193,7 @@
                     <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
                         <img class="services-png" src="./images/coding.png" alt="" class="src" />
                         <h6 class="roboto-regular">Medical Coding</h6>
-                        <p class="mb-0">
+                        <p class="mb-0 roboto-regular-text-1rem">
                             TechnicaForts's Medical Coding Service provides highly accurate
                             medical coding, eliminates incorrect and omitted codes, and
                             ensures the highest and fastest reimbursement rates.
@@ -204,7 +204,7 @@
                     <div class="rounded-4 services-card-index overflow-hidden cards-index box-shadow-1rem">
                         <img class="services-png" src="./images/injection.png" alt="" class="src" />
                         <h6 class="roboto-regular">Pharmacovigilance</h6>
-                        <p class="mb-0">
+                        <p class="mb-0 roboto-regular-text-1rem">
                             TechnicaForts ensures patient safety and regulatory compliance
                             through vigilant pharmacovigilance and literature surveillance.
                         </p>
@@ -219,23 +219,23 @@
             <!-- Why Choose TechnicaForts Section -->
             <h2 class="roboto-regular fw-bold shadow-rem">Why Choose TechnicaForts?</h2>
             <div class="row justify-content-center align-items-center my-5">
-                <div class="col-md-6 text-start roboto-regular-text-1rem">
+                <div class="col-5 text-start roboto-regular-text-1rem">
                     <p class="fw-lighter">TechnicaForts has been extremely honored to have maintained 100% customer
                         retention over
                         our nearly two
                         decades providing services to the healthcare industry!</p>
                 </div>
-                <div class="col-md-4 text-end">
+                <div class="col-5 text-end">
                     <img src="./images/index/why_section_1.jpeg" alt="Why Choose TechnicaForts 1"
                         class="why-section-img img-fluid box-shadow-1rem">
                 </div>
             </div>
             <div class="row justify-content-center align-items-center my-5">
-                <div class="col-md-4 text-start">
+                <div class="col-5 text-start">
                     <img src="./images/index/why_section_2.jpeg" alt="Why Choose TechnicaForts 2"
                         class="why-section-img img-flui box-shadow-1rem ">
                 </div>
-                <div class="col-md-6 text-start text-lg-end roboto-regular-text-1rem mt-3 mt-md-0">
+                <div class="col-5 text-start text-lg-end roboto-regular-text-1rem mt-3 mt-md-0">
                     <ul class="list-group text-start text-lg-end">
                         <li class="list-group-item fw-lighter">100% Customer Focused</li>
                         <li class="list-group-item fw-lighter">Reliable Service Provider</li>
@@ -261,7 +261,7 @@
                 <div class="col-6 col-md-6 col-lg-4">
                     <div class="card custom-image rounded-5 border-0">
                         <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex ">
-                            <p class="roboto-regular-text-1rem mx-auto text-center text-white mb-0">100% Client
+                            <p class="roboto-regular-text-3rem mx-auto text-center text-white mb-0">100% Client
                                 Satisfaction</p>
                         </div>
                     </div>
@@ -276,7 +276,7 @@
                 <div class="col-6 col-md-6 col-lg-4">
                     <div class="card custom-image rounded-5 border-0">
                         <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex">
-                            <p class="roboto-regular-text-1rem mx-auto text-center text-white mb-0">20 Years Healthcare
+                            <p class="roboto-regular-text-3rem mx-auto text-center text-white mb-0">20 Years Healthcare
                                 Experience</p>
                         </div>
                     </div>
@@ -291,7 +291,7 @@
                 <div class="col-6 col-md-6 col-lg-4">
                     <div class="card custom-image rounded-5 border-0">
                         <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex">
-                            <p class="roboto-regular-text-1rem mx-auto text-center text-white mb-0">Significant Cost
+                            <p class="roboto-regular-text-3rem mx-auto text-center text-white mb-0">Significant Cost
                                 Savings</p>
                         </div>
                     </div>
@@ -306,7 +306,7 @@
                 <div class="col-6 col-md-6 col-lg-4">
                     <div class="card custom-image rounded-5 border-0">
                         <div class="card-body box-shadow-5rem rounded-5 border-0 align-items-center d-flex">
-                            <p class="roboto-regular-text-1rem mx-auto text-center text-white mb-0">Increased Revenue
+                            <p class="roboto-regular-text-3rem mx-auto text-center text-white mb-0">Increased Revenue
                             </p>
                         </div>
                     </div>

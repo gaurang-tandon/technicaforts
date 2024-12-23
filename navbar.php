@@ -1,7 +1,7 @@
 <head>
   <link rel="stylesheet" href="./styles/navbar.css" />
 </head>
-<nav class="navbar navbar-expand-lg bg-white box-shadow-2rem-black px-2 px-lg-5">
+<nav class="navbar navbar-expand-lg bg-white box-shadow-2rem-black px-2 px-lg-5 py-1">
         <div class="container-fluid">
             <!-- Logo -->
             <a class="navbar-brand d-flex align-items-center py-0" href="index.php">
@@ -24,7 +24,7 @@
                             <a class="nav-link navbar-roboto-regular" href="./services.php" role="button" aria-expanded="false">
                                 Services
                             </a>
-                            <ul class="dropdown-menu rounded-4 mx-auto py-3 px-2">
+                            <ul class="dropdown-menu rounded-4 mx-auto py-3 px-2 my-0">
                                 <li>
                                     <a class="dropdown-item rounded-5 my-1 navbar-roboto-regular" href="./services/medical_coding.php">Medical
                                         Coding</a>
