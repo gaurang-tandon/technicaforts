@@ -167,9 +167,9 @@
                         <img width="50px" class="services-png" src="./images/preview.png" alt="" class="src" />
                         <h6 class="pt-2 line-break">Medical Record Review</h6>
                         <p class="mb-0 d-none d-md-block">
-                            TechnicaForts' RCM Service optimizes the claims process,
-                            significantly increases revenue, and greatly reduces medical
-                            billing costs.
+                            TechnicaForts provides expert Medical Record Review and Summarization
+                            Services for Insurance Companies, Workers Compensation
+                            organizations, and personal injury Law Firms.
                         </p>
                     </div>
                 </div>
@@ -181,9 +181,9 @@
                         <img width="50px" class="services-png" src="./images/transcription.png" alt="" class="src" />
                         <h6 class="pt-2 line-break">Medical Transcription</h6>
                         <p class="mb-0 d-none d-md-block">
-                            TechnicaForts' RCM Service optimizes the claims process,
-                            significantly increases revenue, and greatly reduces medical
-                            billing costs.
+                            100% secure Medical Transcription Services with guaranteed
+                            Turn-Around Times and accuracy, saving significant time and
+                            money for our Clients.
                         </p>
                     </div>
                 </div>
@@ -195,9 +195,9 @@
                         <img width="50px" class="services-png" src="./images/writing.png" alt="" class="src" />
                         <h6 class="pt-2 line-break">Medical Scribing</h6>
                         <p class="mb-0 d-none d-md-block">
-                            TechnicaForts' RCM Service optimizes the claims process,
-                            significantly increases revenue, and greatly reduces medical
-                            billing costs.
+                            TechnicaForts provides state-of-the-art Medical Scribing Services
+                            that combines advanced AI Technology with expert Medical
+                            Documentation Specialists.
                         </p>
                     </div>
                 </div>
@@ -209,9 +209,9 @@
                         <img width="50px" class="services-png" src="./images/coding.png" alt="" class="src" />
                         <h6 class="pt-2 line-break">Medical Coding</h6>
                         <p class="mb-0 d-none d-md-block">
-                            TechnicaForts' RCM Service optimizes the claims process,
-                            significantly increases revenue, and greatly reduces medical
-                            billing costs.
+                            TechnicaForts' Medical Coding Service provides highly accurate
+                            medical coding, eliminates incorrect and omitted codes, and
+                            ensures the highest and fastest reimbursement rates.
                         </p>
                     </div>
                 </div>
@@ -223,9 +223,8 @@
                         <img width="50px" class="services-png" src="./images/injection.png" alt="" class="src" />
                         <h6 class="pt-2 line-break">Pharmacovigilance</h6>
                         <p class="mb-0 d-none d-md-block">
-                            TechnicaForts' RCM Service optimizes the claims process,
-                            significantly increases revenue, and greatly reduces medical
-                            billing costs.
+                            TechnicaForts ensures patient safety and regulatory compliance
+                            through vigilant pharmacovigilance and literature surveillance.
                         </p>
                     </div>
                 </div>
@@ -292,7 +291,7 @@
                     Experience</p>
             </div>
             <div class="col-6 col-md-6 col-lg-4 image-column custom-hover">
-                <img class="rounded-5" src="./images/index/features/feature_3.webp">
+                <img class="rounded-5" src="./images/index/features/feature_4.webp">
             </div>
             <div class="col-6 col-md-6 col-lg-4 text-column rounded-5 custom-hover">
                 <p class="text-light mb-0">Significant Cost
@@ -349,7 +348,7 @@
                                     by taking on critical revenue cycle responsibilities. With an efficient,
                                     tech-enabled RCM strategy in place, your practice can thrive financially while you
                                     continue delivering excellent care.</p>
-                                <a class="text-decoration-none"href="#">Read More »</a>
+                                <a class="text-decoration-none" href="#">Read More »</a>
                             </div>
                         </div>
                     </div>
@@ -385,7 +384,7 @@
                                     healthcare professionals into written documents that serve as the backbone of
                                     patient care, billing, and legal records. Let’s take a closer look at the art and
                                     science of medical transcription.</p>
-                                <a class="text-decoration-none"href="#">Read More »</a>
+                                <a class="text-decoration-none" href="#">Read More »</a>
                             </div>
                         </div>
                     </div>
