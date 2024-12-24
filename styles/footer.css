@@ -6,3 +6,13 @@
     );
     color: white !important;
   }
+
+
+  .footer-list li a{ 
+    color: #ffffff !important;
+  }
+  
+  .footer-social-media-parent a {
+    display: inline-flex;
+    margin: 3px;
+  }
