@@ -1,0 +1,8 @@
+.bg-custom-blue {
+    background: linear-gradient(
+      177deg,
+      rgba(48, 38, 113, 1) 0%,
+      rgba(89, 146, 192, 1) 75%
+    );
+    color: white !important;
+  }

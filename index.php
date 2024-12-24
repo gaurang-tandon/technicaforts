@@ -8,14 +8,15 @@
     <title>Home</title>
 
     <!-- Bootstrap 5.3 CSS CDN -->
-    <link href="./styles/bootstrap.min.css" rel="stylesheet"
-        crossorigin="anonymous" />
+    <link href="./styles/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
 
     <!-- Font Awesome CDN for Icons and Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 
     <!-- Bootstrap 5.3 JS CDN -->
     <script src="./script/bootstrap.bundle.min.js" crossorigin="anonymous">
@@ -30,24 +31,24 @@
 
     <!-- Carousel -->
     <div id="index-banner" class="container-fluid p-0 mb-5">
-        <div class="row m-0">
+        <div class="row m-0 ge-2">
             <!-- Left Carousel -->
             <div class="col-md-6 p-0">
-                <div id="leftCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+                <div id="leftCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="left-car-image d-block w-100" src="./images/index/left_carousel_3.jpg"
+                            <img class="left-card-image d-block w-100" src="./images/index/left_carousel_3.jpg"
                                 alt="First Slide" />
-                            <div class="carousel-caption d-none d-md-block item-z-index">
-                                <h5>First Slide</h5>
+                            <div class="carousel-caption d-none d-md-block item-z-index text-dark">
+                                <h2>First Slide</h2>
                                 <p>Some placeholder content for the first slide.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="left-car-image d-block w-100" src="./images/index/left_carousel_2.jpg"
+                            <img class="left-card-image d-block w-100" src="./images/index/left_carousel_2.jpg"
                                 alt="Second Slide" />
-                            <div class="carousel-caption d-none d-md-block item-z-index">
-                                <h5>Second Slide</h5>
+                            <div class="carousel-caption d-none d-md-block item-z-index text-dark">
+                                <h2>Second Slide</h2>
                                 <p>Some placeholder content for the second slide.</p>
                             </div>
                         </div>
@@ -60,30 +61,30 @@
                 <div class="row me-0">
                     <div class="col-12 pe-0">
                         <div id="topRightCarousel" class="carousel slide" data-bs-ride="carousel"
-                            data-bs-interval="5000">
+                            data-bs-interval="3000">
                             <div class="carousel-inner text-center">
                                 <div class="carousel-item active">
-                                    <div class="d-block item-z-index">
-                                        <div class="image-aspect d-none d-md-block item-z-index">
-                                            <h5>First Slide</h5>
-                                            <p>Top-right carousel content.</p>
-                                        </div>
+                                    <img class="image-aspect d-block" src="./images/index/bottom_right_carousel_1.jpg"
+                                        alt="First Slide" />
+                                    <div class="carousel-caption d-none d-md-block item-z-index text-dark">
+                                        <h5>First Slide</h5>
+                                        <p>Bottom-right content.</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div class="d-block">
-                                        <div class="image-aspect d-none d-md-block item-z-index">
-                                            <h5>Second Slide</h5>
-                                            <p>Top-right carousel content.</p>
-                                        </div>
+                                    <img class="image-aspect d-block" src="./images/index/bottom_right_carousel_1.jpg"
+                                        alt="First Slide" />
+                                    <div class="carousel-caption d-none d-md-block item-z-index text-dark">
+                                        <h5>Second Slide</h5>
+                                        <p>Bottom-right content.</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
-                                    <div class="d-block">
-                                        <div class="image-aspect d-none d-md-block">
-                                            <h5>Third Slide</h5>
-                                            <p>Top-right carousel content.</p>
-                                        </div>
+                                    <img class="image-aspect d-block" src="./images/index/bottom_right_carousel_1.jpg"
+                                        alt="First Slide" />
+                                    <div class="carousel-caption d-none d-md-block item-z-index text-dark">
+                                        <h5>Third Slide</h5>
+                                        <p>Bottom-right content.</p>
                                     </div>
                                 </div>
                             </div>
@@ -97,25 +98,25 @@
                                 <div class="carousel-item active">
                                     <img class="image-aspect d-block" src="./images/index/bottom_right_carousel_1.jpg"
                                         alt="First Slide" />
-                                    <div class="carousel-caption d-none d-md-block  item-z-index">
+                                    <div class="carousel-caption d-none d-md-block item-z-index text-dark">
                                         <h5>First Slide</h5>
-                                        <p>Bottom-right carousel content.</p>
+                                        <p>Bottom-right content.</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img class="image-aspect d-block" src="./images/index/bottom_right_carousel_3.jpg"
                                         alt="Second Slide" />
-                                    <div class="carousel-caption d-none d-md-block  item-z-index">
+                                    <div class="carousel-caption d-none d-md-block item-z-index text-dark">
                                         <h5>Second Slide</h5>
-                                        <p>Bottom-right carousel content.</p>
+                                        <p>Bottom-right content.</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img class="image-aspect d-block" src="./images/index/bottom_right_carousel_2.jpg"
                                         alt="Second Slide" />
-                                    <div class="carousel-caption d-none d-md-block  item-z-index">
-                                        <h5>Second Slide</h5>
-                                        <p>Bottom-right carousel content.</p>
+                                    <div class="carousel-caption d-none d-md-block item-z-index text-dark">
+                                        <h5>Third Slide</h5>
+                                        <p>Bottom-rig content.</p>
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +153,7 @@
                         <img width="50px" class="services-png" src="./images/cycle.png" alt="" class="src" />
                         <h6 class="pt-2 line-break">Revenue Cycle Management (RCM)</h6>
                         <p class="mb-0 d-none d-md-block">
-                            TechnicaForts’s RCM Service optimizes the claims process,
+                            TechnicaForts' RCM Service optimizes the claims process,
                             significantly increases revenue, and greatly reduces medical
                             billing costs.
                         </p>
@@ -166,7 +167,7 @@
                         <img width="50px" class="services-png" src="./images/preview.png" alt="" class="src" />
                         <h6 class="pt-2 line-break">Medical Record Review</h6>
                         <p class="mb-0 d-none d-md-block">
-                            TechnicaForts’s RCM Service optimizes the claims process,
+                            TechnicaForts' RCM Service optimizes the claims process,
                             significantly increases revenue, and greatly reduces medical
                             billing costs.
                         </p>
@@ -180,7 +181,7 @@
                         <img width="50px" class="services-png" src="./images/transcription.png" alt="" class="src" />
                         <h6 class="pt-2 line-break">Medical Transcription</h6>
                         <p class="mb-0 d-none d-md-block">
-                            TechnicaForts’s RCM Service optimizes the claims process,
+                            TechnicaForts' RCM Service optimizes the claims process,
                             significantly increases revenue, and greatly reduces medical
                             billing costs.
                         </p>
@@ -194,7 +195,7 @@
                         <img width="50px" class="services-png" src="./images/writing.png" alt="" class="src" />
                         <h6 class="pt-2 line-break">Medical Scribing</h6>
                         <p class="mb-0 d-none d-md-block">
-                            TechnicaForts’s RCM Service optimizes the claims process,
+                            TechnicaForts' RCM Service optimizes the claims process,
                             significantly increases revenue, and greatly reduces medical
                             billing costs.
                         </p>
@@ -208,7 +209,7 @@
                         <img width="50px" class="services-png" src="./images/coding.png" alt="" class="src" />
                         <h6 class="pt-2 line-break">Medical Coding</h6>
                         <p class="mb-0 d-none d-md-block">
-                            TechnicaForts’s RCM Service optimizes the claims process,
+                            TechnicaForts' RCM Service optimizes the claims process,
                             significantly increases revenue, and greatly reduces medical
                             billing costs.
                         </p>
@@ -222,7 +223,7 @@
                         <img width="50px" class="services-png" src="./images/injection.png" alt="" class="src" />
                         <h6 class="pt-2 line-break">Pharmacovigilance</h6>
                         <p class="mb-0 d-none d-md-block">
-                            TechnicaForts’s RCM Service optimizes the claims process,
+                            TechnicaForts' RCM Service optimizes the claims process,
                             significantly increases revenue, and greatly reduces medical
                             billing costs.
                         </p>
@@ -239,11 +240,10 @@
             </div>
             <div class="col-12 mt-4">
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-12 col-md-5 text-start text-md-end">
-                        <p class="fw-lighter">TechnicaForts has been extremely honored to have maintained 100% customer
+                    <div class="col-12 col-md-6 text-start text-md-end">
+                        <p>TechnicaForts has been extremely honored to have maintained 100% customer
                             retention over
-                            our nearly two
-                            decades providing services to the healthcare industry!</p>
+                            our nearly two decades providing services to the healthcare industry!</p>
                     </div>
                     <div class="col-12 col-md-5 text-end">
                         <img src="./images/index/why_section_1.jpeg" alt="Why Choose TechnicaForts 1"
@@ -257,14 +257,14 @@
                         <img src="./images/index/why_section_2.jpeg" alt="Why Choose TechnicaForts 2"
                             class="rounded-4 shadow-lg">
                     </div>
-                    <div class="col-12 col-md-5 text-start mt-3 mt-md-0">
+                    <div class="col-12 col-md-6 text-start mt-3 mt-md-0">
                         <ul class="choose-list">
-                            <li class="">100% Customer Focused</li>
-                            <li class="">Reliable Service Provider</li>
-                            <li class="">Focused on Increasing Client Revenue</li>
-                            <li class="">Dedicated U.S. Account Team</li>
-                            <li class="">Highly Experienced Teams</li>
-                            <li class="">Always Working to Lower Client Costs</li>
+                            <li>100% Customer Focused</li>
+                            <li>Reliable Service Provider</li>
+                            <li>Focused on Increasing Client Revenue</li>
+                            <li>Dedicated U.S. Account Team</li>
+                            <li>Highly Experienced Teams</li>
+                            <li>Always Working to Lower Client Costs</li>
                         </ul>
                     </div>
                 </div>
@@ -288,23 +288,22 @@
                 <img class="rounded-5" src="./images/index/features/feature_2.jpg">
             </div>
             <div class="col-6 col-md-6 col-lg-4 text-column  rounded-5 custom-hover">
-                <p class="text-light mb-0">100% Client
-                    Satisfaction</p>
+                <p class="text-light mb-0">20 Years Healthcare
+                    Experience</p>
             </div>
             <div class="col-6 col-md-6 col-lg-4 image-column custom-hover">
                 <img class="rounded-5" src="./images/index/features/feature_3.webp">
             </div>
             <div class="col-6 col-md-6 col-lg-4 text-column rounded-5 custom-hover">
-                <p class="text-light mb-0">100% Client
-                    Satisfaction</p>
+                <p class="text-light mb-0">Significant Cost
+                    Savings</p>
             </div>
 
             <div class="col-6 col-md-6 col-lg-4 image-column custom-hover">
                 <img class="rounded-5" src="./images/index/features/feature_3.webp">
             </div>
             <div class="col-6 col-md-6 col-lg-4 text-column rounded-5 custom-hover">
-                <p class="text-light mb-0">100% Client
-                    Satisfaction</p>
+                <p class="text-light mb-0">Increased Revenue</p>
             </div>
         </div>
     </div>
@@ -314,17 +313,17 @@
         <div class="row align-items-center gx-5">
             <div class="col-md-6">
                 <h2 class="fw-bold">Customer Success</h2>
-                <p class="customer-para">MedVoice was founded nearly 20 years ago with the commitment to provide
+                <p class="customer-para">TechnicaForts was founded with the commitment to provide
                     critically needed Administrative Services to the Healthcare Industry that would resolve the
-                    tremendous burden and expense related to medical documentation and billing related tasks. MedVoice
+                    tremendous burden and expense related to medical documentation and billing related tasks.
+                    TechnicaForts
                     has remained committed to fostering lasting relationships with our Clients through delivering
                     exceptional Services and great value that help drive our Clients' success!</p>
             </div>
             <div class="col-md-6 text-center">
                 <div class="p-3">
-                    <img class="shadow-lg rounded-4"
-                        src="https://medvoiceinc.com/wp-content/uploads/2023/12/Happy-Doctor-scaled-1-1536x1024.jpeg"
-                        alt="Customer Success" class="img-fluid">
+                    <img class="shadow-lg rounded-4" src="./images/index/customer_success.jpeg" alt="Customer Success"
+                        class="img-fluid">
                 </div>
             </div>
         </div>
@@ -338,51 +337,55 @@
                 <div class="col-12 col-md-6 col-lg-4 mb-3">
                     <div class="card">
                         <div class="card-body new_insights">
-                            <img src="https://medvoiceinc.com/wp-content/uploads/2024/02/blog-thumb-rcm.webp"
-                                class="card-img-top card-img" alt="News">
+                            <img src="./images/index/news_insights_1.webp" class="card-img-top card-img" alt="News">
+                            <div class="text-start mt-3">
+                                <h6 class="news-title fw-bold">5 Ways RCM Services Can Improve Your Cash Flow</h6>
+                                <p class="three-line-ellipsis">As a medical provider, you strive to offer the best care
+                                    and service to your patients. However, managing billing and collections can consume
+                                    your valuable time and resources. By partnering with a reliable revenue cycle
+                                    management (RCM) provider, you can optimize your revenue cycle to enhance cash flow.
+                                    This allows you to focus on patient care while ensuring compensation for your
+                                    services. In this article, learn five ways an RCM service can improve your cash flow
+                                    by taking on critical revenue cycle responsibilities. With an efficient,
+                                    tech-enabled RCM strategy in place, your practice can thrive financially while you
+                                    continue delivering excellent care.</p>
+                                <a class="text-decoration-none"href="#">Read More »</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body new_insights">
+                            <img src="./images/index/news_insights_2.jpg" class="card-img-top card-img" alt="News">
+                            <div class="text-start mt-3">
+                                <h6 class="news-title fw-bold">The Art and Science of Medical Transcription</h6>
+                                <p class="three-line-ellipsis">In the ever-evolving landscape of healthcare, there’s a
+                                    critical role that often goes unnoticed but plays a significant part in the smooth
+                                    operation of medical facilities – that of the medical scribe. In this blog post,
+                                    we’ll shed light on the invaluable contributions of medical scribes and why they are
+                                    considered unsung heroes in the healthcare industry.</p>
+                                <a class="text-decoration-none" href="#">Read More »</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body new_insights">
+                            <img src="./images/index/news_insights_3.jpg" class="card-img-top card-img" alt="News">
                             <div class="text-start mt-3">
                                 <h6 class="news-title fw-bold">Behind the Scenes of Healthcare: The Vital Role of
                                     Medical
                                     Scribes
                                 </h6>
-                                <p class="three-line-ellipsis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto eligendi
-                                    quidem necessitatibus ducimus velit nemo, fugit, repellat magnam nulla odio sequi
-                                    perferendis, voluptatem nostrum. Magnam ducimus dolor repudiandae iure!</p>
-                                <a href="#">Read More »</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-3">
-                    <div class="card">
-                        <div class="card-body new_insights">
-                            <img src="https://medvoiceinc.com/wp-content/uploads/2024/02/blog-thumb-rcm.webp"
-                                class="card-img-top card-img" alt="News">
-                            <div class="text-start mt-3">
-                                <h6 class="news-title fw-bold">Behind the Scenes of Healthcare: The Vital Role of Medical
-                                    Scribes
-                                </h6>
-                                <p class="three-line-ellipsis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto eligendi
-                                    quidem necessitatibus ducimus velit nemo, fugit, repellat magnam nulla odio sequi
-                                    perferendis, voluptatem nostrum. Magnam ducimus dolor repudiandae iure!</p>
-                                <a href="#">Read More »</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-3">
-                    <div class="card">
-                        <div class="card-body new_insights">
-                            <img src="https://medvoiceinc.com/wp-content/uploads/2024/02/blog-thumb-rcm.webp"
-                                class="card-img-top card-img" alt="News">
-                            <div class="text-start mt-3">
-                                <h6 class="news-title fw-bold">Behind the Scenes of Healthcare: The Vital Role of Medical
-                                    Scribes
-                                </h6>
-                                <p class="three-line-ellipsis">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo architecto eligendi
-                                    quidem necessitatibus ducimus velit nemo, fugit, repellat magnam nulla odio sequi
-                                    perferendis, voluptatem nostrum. Magnam ducimus dolor repudiandae iure!</p>
-                                <a href="#">Read More »</a>
+                                <p class="three-line-ellipsis">In the fast-paced world of healthcare, where every detail
+                                    counts and accuracy is paramount, medical transcription stands as a crucial linchpin
+                                    in the system. It’s a meticulous process that transforms the spoken words of
+                                    healthcare professionals into written documents that serve as the backbone of
+                                    patient care, billing, and legal records. Let’s take a closer look at the art and
+                                    science of medical transcription.</p>
+                                <a class="text-decoration-none"href="#">Read More »</a>
                             </div>
                         </div>
                     </div>

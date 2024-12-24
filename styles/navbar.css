@@ -37,7 +37,7 @@
   right: 0;
   width: 90%; /* Reduced width for better centering */
   margin: clamp(1rem, 2vw, 2rem) auto; /* Dynamic margin */
-  z-index: 10;
+  z-index: 1000;
   border-radius: 0.5rem;
   padding: clamp(0.5rem, 1vw, 1rem); /* Adjustable padding */
   background-color: #fff;
@@ -47,17 +47,27 @@
 }
 
 /* Font Styling */
-.montserrat-regular {
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
+.roboto-thin {
+  font-family: "Roboto", serif;
+  font-weight: 100;
   font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal; 
+}
+.roboto-regular {
+  font-family: "Roboto", serif;
   font-weight: 400;
+  font-style: normal;
 }
 
 /* Navbar Links */
 .nav-link {
   font-weight: 600;
-  font-size: clamp(0.9rem, 1.2vw, 1.25rem);
+  /* font-size: clamp(0.9rem, 1.2vw, 1.25rem); */
   padding: 0.5rem 1rem;
   line-height: 1.5;
   color: #333;
@@ -84,7 +94,7 @@
 .nav-item .dropdown-menu li:hover a {
   background-color: #00aef0;
   color: #ffffff !important;
-  animation: bounce 1s ease-in-out;
+  /* animation: bounce 1s ease-in-out; */
 }
 
 /* Social Media Hover with Bounce Effect */
