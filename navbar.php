@@ -18,50 +18,50 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item mx-lg-3 rounded-3">
-                            <a class="nav-link roboto-medium" href="index.php">Home</a>
+                            <a class="nav-link roboto-large" href="index.php">Home</a>
                         </li>
                         <li class="nav-item mx-lg-3 rounded-3 dropdown">
-                            <a class="nav-link roboto-medium" href="./services.php" role="button" aria-expanded="false">
+                            <a class="nav-link roboto-large" href="./services.php" role="button" aria-expanded="false">
                                 Services
                             </a>
                             <ul class="dropdown-menu rounded-4 mx-auto py-3 px-2 my-0">
                                 <li>
-                                    <a class="dropdown-item rounded-5 my-1 roboto-regular fw-normal" href="./services/medical_coding.php">Medical
+                                    <a class="dropdown-item rounded-5 my-1 roboto-regular" href="./services/medical_coding.php">Medical
                                         Coding</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item rounded-5 my-1 roboto-regular fw-normal"
+                                    <a class="dropdown-item rounded-5 my-1 roboto-regular"
                                         href="./services/medical_record_review.php">Medical Record Review</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item rounded-5 my-1 roboto-regular fw-normal"
+                                    <a class="dropdown-item rounded-5 my-1 roboto-regular"
                                         href="./services/medical_scribing.php">Medical Scribing</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item rounded-5 my-1 roboto-regular fw-normal"
+                                    <a class="dropdown-item rounded-5 my-1 roboto-regular"
                                         href="./services/medical_transcription.php">Medical Transcription</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item rounded-5 my-1 roboto-regular fw-normal"
+                                    <a class="dropdown-item rounded-5 my-1 roboto-regular"
                                         href="./services/pharmacovigilance.php">Pharmacovigilance</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown-item rounded-5 my-1 roboto-regular fw-normal"
+                                    <a class="dropdown-item rounded-5 my-1 roboto-regular"
                                         href="./services/revenue_cycle_management.php">Revenue Cycle Management</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item mx-lg-3 rounded-3">
-                            <a class="nav-link roboto-medium" href="./case_study.php">Case Study</a>
+                            <a class="nav-link roboto-large" href="./news_and_insights.php">News & Insights</a>
                         </li>
                         <li class="nav-item mx-lg-3 rounded-3">
-                            <a class="nav-link roboto-medium" href="./about_us.php">About Us</a>
+                            <a class="nav-link roboto-large" href="./about_us.php">About Us</a>
                         </li>
                         <li class="nav-item mx-lg-3 rounded-3">
-                            <a class="nav-link roboto-medium" href="./resources.php">Resources</a>
+                            <a class="nav-link roboto-large" href="./resources.php">Resources</a>
                         </li>
                         <li class="nav-item mx-lg-3 rounded-3">
-                            <a class="nav-link roboto-medium" href="./contact_us.php">Contact Us</a>
+                            <a class="nav-link roboto-large" href="./contact_us.php">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -71,17 +71,8 @@
                 <a href="#" class="social-media rounded-3 text-decoration-none g-plus" target="_blank">
                     <i class="fab fa-google-plus-square"></i>
                 </a>
-                <a href="#" class="social-media rounded-3 text-decoration-none facebook" target="_blank">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
                 <a href="#" class="social-media rounded-3 text-decoration-none linkedin" target="_blank">
                     <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="#" class="social-media rounded-3 text-decoration-none instagram" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="#" class="social-media rounded-3 text-decoration-none twitter" target="_blank">
-                    <i class="fab fa-twitter"></i>
                 </a>
             </div>
         </div>

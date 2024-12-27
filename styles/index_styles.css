@@ -279,8 +279,8 @@ img {
   min-height: 12rem;
   background: linear-gradient(
     0deg,
-    rgba(43, 38, 113, 1) 0%,
-    rgba(89, 146, 192, 1) 100%
+    #2b2671 0%,
+    #5992c0 100%
   );
   color: #ffffff;
   padding: 1rem;

@@ -11,7 +11,7 @@
                 <h6>Home</h6>
               </a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">
-                <h6>Case Study</h6>
+                <h6>News & Insights</h6>
               </a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">
                 <h6>About Us</h6>
@@ -64,17 +64,8 @@
             <a href="#" class="social-media bg-light rounded-3 text-decoration-none g-plus" target="_blank">
               <i class="fab fa-google-plus-square"></i>
             </a>
-            <a href="#" class="social-media bg-light rounded-3 text-decoration-none facebook" target="_blank">
-              <i class="fab fa-facebook-square"></i>
-            </a>
             <a href="#" class="social-media bg-light rounded-3 text-decoration-none linkedin" target="_blank">
               <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="#" class="social-media bg-light rounded-3 text-decoration-none instagram" target="_blank">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="#" class="social-media bg-light rounded-3 text-decoration-none twitter" target="_blank">
-              <i class="fab fa-twitter"></i>
             </a>
             <p>© 2024 Privacy policy</p>
           </div>
