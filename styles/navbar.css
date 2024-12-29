@@ -19,7 +19,7 @@
 /* Logo Images */
 .logo-img,
 .logo-img-small {
-  height: clamp(7rem, 10vw, 7rem); /* Dynamic scaling */
+  height: clamp(5rem, 5vw, 5rem); /* Dynamic scaling */
   width: auto;
   margin: 0;
   padding: 0;
@@ -63,7 +63,7 @@
   font-family: "Roboto", serif;
   font-weight: 500;
   font-style: normal; 
-  font-size: x-large;
+  font-size: large;
 }
 
 .roboto-regular {

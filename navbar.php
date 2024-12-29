@@ -5,8 +5,8 @@
         <div class="container-fluid">
             <!-- Logo -->
             <a class="navbar-brand d-flex align-items-center py-0 text-center mx-auto" href="index.php">
-                <img src="./images/index/logo.png" alt="Logo" class="logo-img d-none d-lg-block" />
-                <img src="./images/index/logo.png" alt="Logo" class="logo-img-small d-block d-lg-none" />
+                <img src="./images/logo.jpeg" alt="Logo" class="rounded-4 logo-img d-none d-lg-block" />
+                <img src="./images/logo.jpeg" alt="Logo" class="rounded-4 logo-img-small d-block d-lg-none" />
             </a>
 
             <!-- Navbar Toggler (for Mobile View) -->
